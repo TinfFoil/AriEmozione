@@ -2,14 +2,20 @@
 
 ## Opera Arie Project (Draft)
 
+### Representation
+Baseline: *TF-IDF* vector
 
-Baseline -> tf-idf 
+**(TBD)**:
+1) *TF-IDF* vector (character trigrams)
+2) Topic Vectors (*SVD*, *LSA*, *LDiA*)
 
-Approaches to be tested (incomplete)
-1) Topic Modeling (LSA / LDiA) 
-2) k-Nearest Neighbours (maybe?)
-3) Google's Word2Vec
-	3.1) Preprocessing options to include rare words:
-		-Regex to substitute rare words
-		-Stemming/Lemmatization
-4) Recurrent Neural Networks (if we want to consider what's been previously said -context-)
+### Classification
+**(TBD)**:
+(*k-Nearest-Neighbours* and *NN* are good candidates)
+
+
+### Questions from 10/08
+- Are the verses shuffled or in the original order? 
+	- Each aria is identified by an id (e.g. "ZAP1598155_00"), where the last 2 digits indicate verse order. The arias are shuffled, while the verses follow their original order in the aria.
+- Should we eliminate unlabelled lines (e.g. "SIVENIO")?
+	- These lines may be kept later on but should be ignored in the preprocessing
