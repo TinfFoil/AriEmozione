@@ -5,13 +5,19 @@
 ### Representation
 Baseline: *TF-IDF* vector
 
-**(TBD)**:
-1) *TF-IDF* vector (character trigrams)
-2) Topic Vectors (*SVD*, *LSA*, *LDiA*)
+**By 16/08**:
+1) *TF-IDF* vector (character 3-gram)
+2) LSA Topic Vectors (base tfidf)
+3) LDiA Topic Vectors (base tfidf)
+4) LSA Topic Vectors (3-gram)
+5) LDiA Topic Vectors (3-gram) 
 
 ### Classification
 **(TBD)**:
-(*k-Nearest-Neighbours* and *NN* are good candidates)
+1) *k-Nearest-Neighbours* 
+2) *Multiclass SVM*
+3) *NN* 
+4) *CNN*
 
 
 ### Questions from 10/08
