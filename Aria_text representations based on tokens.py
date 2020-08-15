@@ -76,3 +76,30 @@ ldia_tv=pd.DataFrame(ldia_topic_vector)
 
 ldia_tv.round(2)
 
+
+#Character 3-grams - Simple TF-IDF
+vectorizer = TfidfVectorizer(analyzer='char', ngram_range=(3,3), min_df=1)
+trigram_tfidf = vectorizer.fit_transform(raw_documents=aria_text).toarray()
+trigram_tfidf = pd.DataFrame(trigram_tfidf)
+
+#Character 3-grams - Simple BoW
+Counter = CountVectorizer(analyzer='char', ngram_range=(3,3), min_df=1)
+trigram_bow = Counter.fit_transform(raw_documents=aria_text)
+trigram_bow = pd.DataFrame(trigram_bow).toarray()
+
+#Character 3-grams - TruncatedSVD Topic Vectors
+svd = TruncatedSVD(n_components=16, n_iter=100)
+trigram_svd = svd.fit_transform(trigram_tfidf)
+trigram_svd = pd.DataFrame(trigram_svd)
+
+#Character 3-grams - PCA Topic Vectors
+pca = PCA(n_components=16)
+trigram_pca = pca.fit_transform(trigram_tfidf)
+trigram_pca = pd.DataFrame(trigram_pca)
+
+#Character 3-grams - LDiA Topic Vectors
+ldia = LDiA(n_components=16, learning_method="batch")
+trigram_ldia = ldia.fit_transform(trigram_bow)
+trigram_ldia = pd.DataFrame(trigram_ldia)
+
+
