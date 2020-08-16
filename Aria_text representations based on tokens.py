@@ -13,6 +13,12 @@ df = pd.read_csv("ariaset_train.tsv",sep="\t",encoding="utf-8",names=columns)
 aria_text=df["Text"]
 
 
+ #skipping lines with no label for Emotion
+for idx, cell in aria_text.iteritems(): #ZAP1596906_00,ZAP1596906_01 must be corrected, they have no "Emotion" evaluation
+    if not isinstance(df.loc[idx, 'Emotion'], str): #skipping lines with no label for Emotion
+        aria_text = aria_text.drop(idx)
+        
+        
 # In[47]:
 
 
