@@ -3,45 +3,22 @@
 
 # In[88]:
 
-
 import numpy as np
 import pandas as pd
-from nltk.corpus import stopwords
-stop=stopwords.words('italian')
 columns=["Names","Text","Emotion","Fiducia","?"]
 df = pd.read_csv("ariaset_train.tsv",sep="\t",encoding="utf-8",names=columns)
+#skipping lines with no label for Emotion
+df=df.drop(['?'], axis=1)
+df=df.dropna()
+df=df.sample(frac=1)
 aria_text=df["Text"]
+emotion=df["Emotion"]
 
-
- #skipping lines with no label for Emotion
-for idx, cell in aria_text.iteritems(): #ZAP1596906_00,ZAP1596906_01 must be corrected, they have no "Emotion" evaluation
-    if not isinstance(df.loc[idx, 'Emotion'], str): #skipping lines with no label for Emotion
-        aria_text = aria_text.drop(idx)
-        
-        
-# In[47]:
-
-
-"""from nltk.tokenize import TreebankWordTokenizer
-tokenizer=TreebankWordTokenizer()
-tokens=list()
-for i in aria_text:
-    tokens.append([tokenizer.tokenize(i.lower())])"""
-
-
-# In[69]:
-
-
-#create the TF-IDF vector
+#creat tf-idf vectors
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
-vectorizer = TfidfVectorizer()
+vectorizer = TfidfVectorizer(stop_words={"italian"})
 aria_tfidf = vectorizer.fit_transform(aria_text)
-print(aria_tfidf.shape)
-
-
-# In[70]:
-
 
 #create the topic vectors using truncated SVD
 svd=TruncatedSVD(n_components=16,n_iter=100)
@@ -49,22 +26,11 @@ aria_svd=svd.fit_transform(aria_tfidf)
 aria_svd=pd.DataFrame(aria_svd)
 aria_svd.round(3)
 
-
-# In[71]:
-
-
 #LDiA topic model
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk.tokenize import casual_tokenize
 Counter=CountVectorizer(tokenizer=casual_tokenize)
 bow_docs=pd.DataFrame(Counter.fit_transform(raw_documents=aria_text).toarray())
-
-
-# In[72]:
-
-
-bow_docs
-
 
 # In[85]:
 
