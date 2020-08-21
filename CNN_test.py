@@ -176,5 +176,5 @@ model.add(Dense(7, activation="softmax"))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 model.fit(aria_svd_x, dummy_y_x, nb_epoch=10, batch_size=32, verbose=1)
 
-score = model.evaluate(aria_svd_x, dummy_y_y, verbose=0)
+score = model.evaluate(aria_svd_y, dummy_y_y, verbose=0)
 print(f'Test loss: {score[0]} / Test accuracy: {score[1]}')
