@@ -1,0 +1,12 @@
+import it_core_news_sm
+import re
+nlp = it_core_news_sm.load()
+def italian_tokenizer(verse):
+    tokenized = []
+    doc = nlp(verse)   #we could add here .casefold() to make it case insensitive
+    for w in doc:
+        regex=re.compile(r'( .*|\'|\-|\,|\!|\:|\;|\?|\.|\(|\))')
+        if not regex.match(w.text):
+            w_lower=w.text.casefold()
+            tokenized.append(w_lower)
+    return tokenized
