@@ -1,6 +1,7 @@
 import it_core_news_sm
 import re
 def perfect_tokenizer(text):
+    nlp = it_core_news_sm.load()
     count=0
     final_tokens=list()
     tokenized=list()
