@@ -1,0 +1,18 @@
+import it_core_news_sm
+import re
+def perfect_tokenizer(text):
+    count=0
+    final_tokens=list()
+    tokenized=list()
+    for verse in text:
+        verse=verse.casefold()
+        doc = nlp(verse)
+        tokenized.append([])
+        for w in doc:
+            tokenized[count].append(w.text)    
+        count += 1
+    for i in tokenized:
+        regex=re.compile(r'( .*|\'|\-|\,|\!|\:|\;|\?|\.|\(|\))')
+        i=[t for t in i if not regex.match(t)]
+        final_tokens.append(i)
+    return final_tokens
