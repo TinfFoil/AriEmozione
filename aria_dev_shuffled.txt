@@ -1,0 +1,253 @@
+ZAP1594449_04	"Ah per me tu non nascesti! Ah non nacqui, oh dio, per te"	Rabbia	Totalmente sicura
+ZAP1599806_00	Dal suo gentil sembiante nacque il mio primo amore e l'amor mio costante ha da morir con me	Amore	Totalmente sicura
+ZAP1592546_00	"Si sgomenti alle sue pene il pensier di donna imbelle che vil sangue ha nelle vene, che non vanta un nobil cor"	Rabbia	Totalmente sicura
+ZAP1593504_02	Lo senti; lo vedi; dipende da te	Rabbia	Abbastanza sicura
+ZAP1597905_00	"Fra lo splendor del trono belle le colpe sono, perde l'orror l'inganno, tutto si fa virt?Ammirazione"	forti dubbi	
+ZAP1593997_00	Basta cos? t'intendo; gi?ti spiegasti a pieno	Rabbia	Totalmente sicura
+ZAP1595594_00	Saggio guerriero antico mai non ferisce in fretta	Ammirazione	Totalmente sicura
+ZAP1596217_01	"    Come torna il ciel sereno quel vapor che i rai gli toglie, quando in pioggia si cangi?Gioia"	Forti dubbi	
+ZAP1592912_00	"Tradita, sprezzata che piango! che parlo!  se pieno d'orgoglio non crede il dolor?"	Tristezza	Totalmente sicura
+ZAP1597353_00	N?la tua sorte mi fa lusinga; n?la mia morte mi fa terror	Tristezza	Abbastanza sicura
+ZAP1592912_02	    Sentirsi morire dolente e perduta!  Trovarsi innocente! Non esser creduta! Chi giunge a soffrire tormento maggior?.	Rabbia	Totalmente sicura
+ZAP1600129_00	"L'incerto mio pensiere non ha di che temere, di che sperar non ha e pur temendo va, pur va sperando"	Tristezza	Abbastanza sicura
+ZAP1593826_00	Piet?signor di lui	Tristezza	Totalmente sicura
+ZAP1593539_03	Addio sposo amato	Tristezza	Totalmente sicura
+ZAP1595857_01	    So che un labro e so che un ciglio fa languire il cuore in petto	Amore	Abbastanza sicura
+ZAP1593926_00	"Fa' che si spieghi almeno quell'alma contumace, se l'amor mio le piace, se vuol rigor da me"	Rabbia	Abbastanza sicura
+ZAP1597905_01	     Fuggir con frode il danno pu?dubitar se lice quell'anima infelice che nacque in servit?Tristezza	Abbastanza sicura	
+ZAP1593641_00	Che non mi disse un d?	Paura	abbastanza sicura
+ZAP1594449_00	"Non temer, non son pi?amante, la tua legge ho gi?nel cor"	Tristezza	Totalmente sicura
+ZAP1597160_00	Mi usciria per gran diletto fuor del sen l'alma e la vita; ma la sento al cor pi?unita ne lo stringerti al mio petto	Amore	Totalmente sicura
+ZAP1596504_00	"Il padre mio tu sei; tutto son io tuo dono; se a te fedel non sono, a chi sar?fedel?"	Ammirazione	Totalmente sicura
+ZAP1593717_00	"Nube cos?profonda non pu?formarsi mai che le tue glorie asconda, che ne trattenga il vol"	Gioia	Totalmente sicura
+ZAP1592526_01	    Se nascono i diletti dal grembo del dolor oggetto di piacer sono i tormenti	Rabbia	Forti dubbi
+ZAP1594460_00	Che pretendi amor tiranno; a pi?barbari martiri tutti or deggio i miei sospiri; non ne resta un sol per te	Rabbia	Totalmente sicura
+ZAP1599836_02	"    A un altro oggetto, che tu non sai, anch'io l'affetto finor serbai e in s?bel foco vivr?fedel"	Rabbia	Totalmente sicura
+ZAP1596772_00	"Dico che ingiusto sei, e che del par m'affanni, se d'odio mi condanni, se chiedi amor da me"	Rabbia	Totalmente sicura
+ZAP1593110_01	"    Che nel sentier d'onore se ritornar saprai, ricompensata assai vedr?la mia piet?Gioia"	Abbastanza sicura	
+ZAP1597496_00	Credi a me: sposo re A belt?fa gran lusinga	Ammirazione	Abbastanza sicura
+ZAP1595872_01	"   fammi un altro cuore in petto, o 'l tuo dammi o 'l mio s'aumenti"	Amore	Totalmente sicura
+ZAP1598155_00	"Se vuoi ch'io mora mio dolce amore eccoti il seno, passami il core ma non lasciarmi senza di te"	Tristezza	Totalmente sicura
+ZAP1598236_01	"    Ma se vinta alfin tu sei dal furor de le procelle, non lagnarti de le stelle, degli dei non ti lagnar"	Rabbia	Totalmente sicura
+ZAP1593100_01	"    Se troppo al ciglio crede fanciullo al fonte appresso, scherza con l'ombra e vede moltiplicar s?stesso; e semplice deride l'immagine di s?Rabbia"	Forti dubbi	
+ZAP1596132_00	Non perdo la calma fra' ceppi o gli allori; non va sino all'alma la mia servit?Gioia	Forti dubbi	
+ZAP1596055_00	L'alma mia si scuote invano per tornare in libert?Rabbia	Totalmente sicura	
+ZAP1596060_03	Ti fuggir? ti abborrir?n?canger?mai tempre	Rabbia	Totalmente sicura
+ZAP1594068_01	"    Ardo d'ira, di rabbia deliro, smanio, fremo, non odo, non miro che le furie che porto con me"	Rabbia	Totalmente sicura
+ZAP1593539_02	"    Mia vita, ben mio"	Amore	Totalmente sicura
+ZAP1599766_01	Tu spieghi il tuo dolore e se non desti amore ritrovi almen piet?Tristezza	Totalmente sicura	
+ZAP1593786_01	"Ah che la rea son io; sento gelarmi il cor, mancar mi sento"	Paura	abbastanza sicura
+ZAP1593997_01	E mi diresti meno se mi dicessi pi?Rabbia	Totalmente sicura	
+ZAP1597612_00	Sol per te potrebbe amore disarmar - il mio rigore: e potrei fra sue catene 	Amore	Totalmente sicura
+ZAP1592526_00	I suoi nemici affetti di sdegno e di timor il placido pensier pi?non rammenti	Rabbia	Forti dubbi
+ZAP1593957_02	"    Che ho l'alma s?oppressa che tutto mi spiace, che quasi me stessa non posso soffrir"	Tristezza	Totalmente sicura
+ZAP1596060_01	 AGARISTA	Nessuna	totalmente sicura
+ZAP1597395_01	"    Al mio ben non son crudele, fa pi?merto al pi?fedele, se ha belt?pi?d'un amante"	Tristezza	Totalmente sicura
+ZAP1596319_01	"    In s?ria sorte, sarai men forte, non meno misero col lagrimar"	Tristezza	Totalmente sicura
+ZAP1593997_02	    Meglio parlar tacendo; dir molto in pochi detti de' violenti affetti ?solita virt?Rabbia	Totalmente sicura	
+ZAP1593671_02	"    Pur che non goda quel cor spergiuro, nulla mi curo del mio dolor"	Rabbia	Totalmente sicura
+ZAP1594409_01	    Ogni bella intende appieno quanto aggiunga di valore il ritegno alla belt?Ammirazione	Totalmente sicura	
+ZAP1595975_02	"Ah, no fermate"	Paura	Totalmente sicura
+ZAP1599861_00	Disperato in mar turbato sotto ciel funesto e nero pur talvolta il passaggiero il suo porto ritrov?Gioia	Totalmente sicura	
+ZAP1595594_01	Esamina il nemico; il suo vantaggio aspetta; n?dal calor dell'ira mai trasportar si fa	Ammirazione	Totalmente sicura
+ZAP1599871_00	Io so qual pena sia quella d'un cor geloso	Tristezza	Abbastanza sicura
+ZAP1593524_02	"    Chi non ebbe ore mai liete, chi agli affanni ha l'alma avvezza crede acquisto una dubbiezza ch'?principio allo sperar"	Gioia	Abbastanza sicura
+ZAP1593539_01	    Ah questo fu il segno del nostro contento; ma sento che adesso l'istesso non ?Tristezza	Totalmente sicura	
+ZAP1596835_00	Sorprender mi vorresti nume dell'alme imbelli; ma invano a me favelli; nume non sei per me	Rabbia	Totalmente sicura
+ZAP1597136_00	"Dir?ad altri: «Mio tesoro, te sol amo, per te moro?ma con l'alma il dir?a te"	Amore	totalmente sicura
+ZAP1596122_00	"Sol pu?dir che sia contento chi pen?gran tempo invano, dal suo ben chi fu lontano e lo torna a riveder"	Gioia	Totalmente sicura
+ZAP1595975_00	"I vostri fulmini a chi serbate, se tutti in seno non li vibrate del traditor"	Rabbia	Totalmente sicura
+ZAP1593641_03	"   Tutto per lui perdei, oggi lui perdo ancor"	Tristezza	Totalmente sicura
+ZAP1596066_03	 AGARISTA	Nessuna	totalmente sicura
+ZAP1594093_00	Perfidi non godete se altrove il passo affretto; a trapassarvi il petto perfidi torner?Rabbia	Totalmente sicura	
+ZAP1594465_01	    Guerrier che l'arte intende dell'ira che l'accende raro i consigli accetta o gli sospende almen	Ammirazione	Totalmente sicura
+ZAP1593110_00	"Serbati a grandi imprese, acci?rimanga ascosa la macchia vergognosa di questa infedelt?Rabbia"	fORTI DUBBI	
+ZAP1596354_01	    E sapr?di un incostante trionfar la tua belt?Gioia	Totalmente sicura	
+ZAP1598549_02	    E la tua pena sia il rammentar che in dono ti di?la vita e il trono pietoso il vincitor	Rabbia	Abbastanza sicura
+ZAP1596127_00	Tu sprezzator di morte dai per la patria il sangue; ma il figlio suo pi?forte perde la patria in te	Ammirazione	abbastanza sicura
+ZAP1594449_05	    Che d'amor nel vasto impero si ritrovi un duol pi?fiero no possibile non ?Tristezza	Totalmente sicura	
+ZAP1597262_00	"Morte vuoi?. Va' pur, crudele; da la sposa tua fedele incominci il rio dolor"	Tristezza	Totalmente sicura
+ZAP1596066_01	 ARMIDORO	Nessuna	totalmente sicura
+ZAP1598475_01	"     Se si vede fra gli argini stretto sdegna il letto, confonde le sponde e superbo fremendo sen va"	Rabbia	Abbastanza sicura
+ZAP1599836_01	"Ma poche lagrime, poco dolore costa la perdita d'un infedel"	Rabbia	Abbastanza sicura
+ZAP1597160_01	    Non mi uccide il mio contento perch?teme il tuo dolore; ed ?prova del mio amore non morir di godimento	Amore	Totalmente sicura
+ZAP1593886_00	"Alme incaute che torbide ancora non provaste l'umane vicende, ben lo veggo, vi spiace, v'offende il consiglio d'un labbro fedel"	Rabbia	Abbastanza sicura
+ZAP1598079_01	     Darmi legge invan pretende chi l'arbitrio a me contende della gloria e dell'amor	Rabbia	Totalmente sicura
+ZAP1598027_00	Vorrei disciogliere le mie catene ma il volto amabile del caro bene toglie a quest'anima la libert?Amore	Totalmente sicura	
+ZAP1597148_00	L'alma godea tranquilla e una gentil pupilla sol era il mio pensier	Amore	Totalmente sicura
+ZAP1594465_00	Guerrier che i colpi affretta trascura il suo riparo; e spesso al nudo acciaro offre scoperto il sen	Ammirazione	Forti dubbi
+ZAP1593826_02	"    Se a' prieghi miei non vuoi, se all'error suo non puoi, donalo al cor d'Augusto, donalo a te signor"	Tristezza	Abbastanza sicura
+ZAP1596319_00	"Mio cor piagato, cor sventurato, il sangue in lagrime non dei versar"	Tristezza	Totalmente sicura
+ZAP1593539_00	"La destra ti chiedo, mio dolce sostegno, per ultimo pegno d'amore e di f?Tristezza"	Totalmente sicura	
+ZAP1595965_00	Pensieri avrete pace; e quella pace avrete che amor gi?vi rub?Gioia	Totalmente sicura	
+ZAP1594449_01	    Per piet?da questo istante non parlar mai pi?d'amor	Tristezza	Totalmente sicura
+ZAP1597262_01	    A' torrenti da quest'occhi scoppi in lagrime e trabocchi tutto il sangue del mio cor	Tristezza	Totalmente sicura
+ZAP1597395_00	"Bench?io l'ami, soffro in pace che tu adori il bel sembiante"	Tristezza	Totalmente sicura
+ZAP1593717_01	"    Saria difficil meno torre alle stelle i rai, a' fulmini il baleno, la chiara luce al sol"	Gioia	Totalmente sicura
+ZAP1595594_02	"    Muove la destra, il piede, finge, s'avvanza e cede, fin che il momento arriva che vincitor lo fa"	Gioia	Totalmente sicura
+ZAP1599856_02	E se n'avvede allora che sciogliersi non sa	Amore	Abbastanza sicura
+ZAP1595975_04	"    Troppo cara m'?la sua vita e in onta ancora del mio furor l'amo, bench?infedel, bench?tradita"	Tristezza	Totalmente sicura
+ZAP1593524_01	"Non ?poco, o luci belle, ch'io ne possa dubbitar"	Gioia	Abbastanza sicura
+ZAP1596426_02	Tu vedi il caso mio; e tu conosci amor	Amore	Abbastanza sicura
+ZAP1595872_00	"Non pi?amor, non pi?contenti, per capir tanto diletto,"	Amore	Totalmente sicura
+ZAP1596217_00	"Vuol tornar la calma in seno, quando in lagrime si scioglie quel dolor che la turb?Gioia"	Forti dubbi	
+ZAP1593641_04	Poveri affetti miei! Questa mi rendi amor questa mercede?.	Tristezza	Totalmente sicura
+ZAP1593641_01	Quai numi non giur?	Paura	abbastanza sicura
+ZAP1600025_01	    Ti renda amore per mio conforto tutto il dolore che fai soffrir	Rabbia	Abbastanza sicura
+ZAP1600252_01	"    Credemi audace o stolto s'io non ti posso amar ma scordati il mio volto, ma pi?non mi contar fra le tue prede"	Rabbia	Totalmente sicura
+ZAP1594113_00	Chi a ritrovare aspira prudenza in core amante domandi a chi delira quel senno che perd?Rabbia	Forti dubbi	
+ZAP1598336_02	     Nel conflitto sanguinoso quel guerrier perch?non geme?	Ammirazione	Abbastanza sicura
+ZAP1593560_01	Ah non gli dite mai qual era il genitor	Tristezza	Totalmente sicura
+ZAP1596247_02	    Sol quest'alma vicina al suo bene pi?sente le pene che amando soffr?Amore	Totalmente sicura	
+ZAP1594449_03	Vanne addio. Perch?t'arresti?	Tristezza	Totalmente sicura
+ZAP1597508_00	"Per copri ogni difetto di un oggetto a noi diletto, "	Gioia	forti dubbi
+ZAP1596681_00	"Se un tenero disprezza pietoso padre in me, d'un giudice e d'un re soffra il rigore"	Rabbia	Abbastanza sicura
+ZAP1597490_01	"   Non cercarli, ma, se avvengon, tollerarli, "	Ammirazione	Forti dubbi
+ZAP1592546_01	    Se lo sdegno delle stelle tolerar meglio non sai arrossir troppo farai e lo sposo e il genitor	Rabbia	Totalmente sicura
+ZAP1596132_01	    Combatte i rigori di sorte incostante in vario sembiante l'istessa virt?Ammirazione	Forti dubbi	
+ZAP1598445_01	"      Cos?rende il fiumicello, mentre lento il prato ingombra, alimento all'arboscello e per l'ombra umor gli d?Gioia"	Abbastanza sicura	
+ZAP1594360_00	"Qual de' tuoi pregi Elisa saria la luce intera, se giunge ancor divisa ad abbagliar cos?Amore"	abbastanza sicura	
+ZAP1594414_00	"Sai qual ardor m'accende, vedi che a te mi fido; dal tuo bel cor dipende la pace del mio cor"	Amore	Totalmente sicura
+ZAP1594154_01	"    So che spesso tra' fiori e le fronde pur la serpe s'asconde, s'aggira; so che in aria talvolta s'ammira una stella che stella non ?Paura"	totalmente sicura	
+ZAP1594444_01	"    S? reo destin, finora posso la fronte alzar e intrepido mirar la tua sembianza"	Rabbia	Abbastanza sicura
+ZAP1597323_00	Prova sia di mia innocenza che con barbara sentenza mi condanni l'empiet?Rabbia	Totalmente sicura	
+ZAP1600025_00	Amico il fato mi guida in porto e tu spietato mi fai perir	Rabbia	Totalmente sicura
+ZAP1595927_00	Talora le frodi son pegno di f?Rabbia	Abbastanza sicura	
+ZAP1596055_02	Dico a l'ira: «Amor si scacci? ella il tenta e poi nol fa	Rabbia	Totalmente sicura
+ZAP1596426_01	    Che mai spiegar?. Che mai dirti di pi?poss'io?	Tristezza	Abbastanza sicura
+ZAP1593100_00	"Se troppo crede al ciglio colui che va per l'onde, invece del naviglio vede partir le sponde, giura che fugge il lido e pur cos?non ?Rabbia"	Forti dubbi	
+ZAP1593826_01	So che il rigore ?giusto; ma norma i falli altrui non son del tuo rigor	Tristezza	Abbastanza sicura
+ZAP1599826_00	"Dice che t'?fedele; dice ch'alcun t'inganna, che tu non sei tiranna, ch'hai troppo bello il cor"	Amore	Totalmente sicura
+ZAP1596247_00	"Torna al lido la navicella, n?pi?teme quel mar che sfugg?Gioia"	Totalmente sicura	
+ZAP1596066_02	Non mi parlar	Rabbia	Totalmente sicura
+ZAP1598410_01	 Che vale d'un core fedele amore s'altri ne gode poi la merc?Tristezza	Totalmente sicura	
+ZAP1594068_00	Men bramosa di stragi funeste va scorrendo l'armene foreste fiera tigre che i figli perd?Rabbia	Totalmente sicura	
+ZAP1595862_01	"   morir mi conviene, che senza il suo bene star l'alma non sa"	Tristezza	Totalmente sicura
+ZAP1593539_04	Che barbaro addio! Che fato crudel!	Rabbia	Totalmente sicura
+ZAP1593179_00	Deh respirar lasciatemi qualche momento in pace; capace di risolvere la mia ragion non ?Rabbia	Totalmente sicura	
+ZAP1597323_01	    Chiara prova ancor ne sia ch'io la possa acerba e ria sostener senza vilt?Rabbia	Totalmente sicura	
+ZAP1594360_01	"    Se que' sublimi vanti, che sparse avaro in tanti, in te felice Augusta prodigo il cielo un?Amore"	abbastanza sicura	
+ZAP1596127_01	"    Se te domandi esangue, molto da lei domandi; d'anime cos?grandi prodigo il ciel non ?Ammirazione"	Abbastanza sicura	
+ZAP1596835_01	    All'alma mia disciolta invan catene appresti; fra' suoi rigori involta scherno far?di te	Rabbia	Totalmente sicura
+ZAP1596314_00	"Vo gustando pi?veri piaceri, quella amando ed or questa belt?Amore"	Totalmente sicura	
+ZAP1600252_00	"Se al ciglio lusinghiero, se mostro ai detti amor, il ciglio ?menzognero, il labro ?mentitor, non gli dar fede"	Rabbia	Totalmente sicura
+ZAP1595862_00	Amor se mi togli l'amata belt?	Paura	abbastanza sicura
+ZAP1593886_01	    Confondete con l'utile il danno; chi vi regge credete tiranno; chi vi giova chiamate crudel	Rabbia	Abbastanza sicura
+ZAP1594409_00	Di due ciglia il bel sereno spesso intorbida il rigore; ma non sempre ?crudelt?Ammirazione	Totalmente sicura	
+ZAP1600129_01	    Senza saper perch?n'and?cos?da me la pace in bando	Tristezza	Abbastanza sicura
+ZAP1594134_01	"    Che ha cent'occhi e pur travede, che il mal finge, il ben non crede, che dipinge nel sembiante i deliri del pensier"	Paura	Abbastanza sicura
+ZAP1593524_00	"No, non chiedo amate stelle se nemiche ancor mi siete"	Gioia	Abbastanza sicura
+ZAP1595965_01	   Godrete la belt?che tanto vi agit? n?pi?vi strugger?fiamma vorace	Gioia	Totalmente sicura
+ZAP1593560_02	"    Come in un punto, oh dio, tutto cambi?d'aspetto! Voi foste il mio diletto, voi siete il mio terror"	Paura	Abbastanza sicura
+ZAP1597863_01	"    Ma se vinta alfin tu sei dal furor de le procelle, non lagnarti de le stelle, degli dei non ti lagnar"	Rabbia	Totalmente sicura
+ZAP1594113_01	    Chi riscaldar si sente a' rai d'un bel sembiante o pi?non ?prudente o amante ancor non ?Rabbia	Forti dubbi	
+ZAP1593641_02	"E come, oh dio, si pu? come si pu?cos?mancar di fede!"	Rabbia	Totalmente sicura
+ZAP1598410_00	"Giovi pur poco, povera f? se quel crudele che tanto amai non ?per te"	Tristezza	Totalmente sicura
+ZAP1599861_01	    E venuti i d?felici va per gioco in su l'arene disegnando ai cari amici i perigli che pass?Gioia	Totalmente sicura	
+ZAP1592807_00	"Non so se pi?t'accendi  a questa, a quella face ma pensaci, ma intendi, forse chi pi?ti piace pi?traditor sar?Rabbia"	Forti dubbi	
+ZAP1599871_03	E l'esserti infedele prova sar?di f?Amore	Abbastanza sicura	
+ZAP1593957_00	Non vedi tiranno ch'io moro d'affanno?	Rabbia	Totalmente sicura
+			
+ZAP1593309_01	"    Della patria e delle squadre ecco il duce ed ecco il padre in cui fida il mondo intero, in cui spera il nostro amor"	Ammirazione	Totalmente sicura
+ZAP1593539_05	"   Che attendono i rei dagli astri funesti, se i premi son questi d'un'alma fedel?."	Rabbia	Totalmente sicura
+ZAP1593309_02	    Palme il Gange a lui prepari e d'Augusto il nome impari dell'incognito emisfero il remoto abitator	Ammirazione	Totalmente sicura
+ZAP1594224_00	"Ah frenate il pianto imbelle; non ?ver, non vado a morte, vo del fato, delle stelle, della sorte a trionfar"	Gioia	Totalmente sicura
+			
+ZAP1598549_00	Vivi superbo e regna	Ammirazione	Abbastanza sicura
+ZAP1592784_00	"A quel pianto che versi dolente un affetto quest'anima sente, una pena che mai non prov?Tristezza"	Totalmente sicura	
+ZAP1593671_00	"No, la speranza pi?non m'alletta"	Tristezza	Totalmente sicura
+ZAP1599856_00	"Saria piacer, non pena la servit?d'amore, quando la sua catena sceglier potesse un core che prigionier si fa"	Amore	Abbastanza sicura
+ZAP1595857_00	Con l'ardor de la sua face strugge e piace di Ciprigna il cieco figlio; n?so dir se sia diletto	Amore	Abbastanza sicura
+ZAP1598155_01	"    Da quella mano s'io son ferita non ?tormento perder la vita, non ha la morte terror per me"	Amore	Totalmente sicura
+ZAP1597490_00	Nostra vita ha i suoi disagi	Tristezza	Abbastanza sicura
+ZAP1596876_00	Se talun non sa qual sia il piacer dell'alma mia ?ben degno di piet?Tristezza	forti dubbi	
+ZAP1594139_01	"    Passo di pene in pene, questa succede a quella ma l'ultima che viene ?sempre la peggior"	Tristezza	Totalmente sicura
+ZAP1595975_01	"    Su, da l'Etra incenerite"	Rabbia	Totalmente sicura
+ZAP1596066_04	"   S'?tua quest'alma, tuo questo cuore, di qual errore mi puoi sgridar?"	Rabbia	Totalmente sicura
+ZAP1598549_01	"Regna per gloria mia, vivi per tuo rossor"	Tristezza	Abbastanza sicura
+ZAP1596681_01	    Sarebbe or debolezza d'Amasi la piet? Amasi non avr?questo rossore	Rabbia	Abbastanza sicura
+ZAP1598475_00	"Son quel fiume che gonfio d'umori, quando il gielo si scioglie in torrenti, selve, armenti, capanne e pastori porta seco e ritegno non ha"	Rabbia	Abbastanza sicura
+ZAP1593309_00	"Vivi a noi, vivi all'impero grande Augusto e la tua fronte su l'Oronte prigioniero s'accostumi al sacro allor"	Ammirazione	Totalmente sicura
+ZAP1594007_00	"Gi?l'idea del giusto scempio mi rapisce, mi diletta; gi?pensando alla vendetta mi comincio a vendicar"	Rabbia	Totalmente sicura
+ZAP1593504_03	"    Di lei, per cui peno, se penso al periglio, tal smania ho nel seno, tal benda ho sul ciglio, che l'alma di freno capace non ?Tristezza"	abbastanza sicura	
+ZAP1592807_01	"   Avria lo stral d'amore troppo soavi tempre, se la belt?del core corrispondesse sempre del volto alla belt?Tristezza"	Totalmente sicura	
+ZAP1596055_01	    Dico al cuore: «Infrangi i lacci? ei risponde che non sa	Rabbia	Totalmente sicura
+ZAP1600031_01	"    Ma chi nasce in regia cuna pi?nemica ha la fortuna, che nel trono ascosi stanno e l'inganno ed il timor"	Tristezza	Totalmente sicura
+ZAP1598027_01	"    Ancor che misero sia questo core, pur soffre placido l'altrui rigore, l'amato carcere lasciar non sa"	Tristezza	Totalmente sicura
+ZAP1594159_00	?specie di tormento questo per l'alma mia eccesso di contento che non potea sperar	Gioia	Totalmente sicura
+ZAP1594139_00	Chi mai d'iniqua stella prov?tenor pi?rio! Chi vide mai del mio pi?tormentato cor	Tristezza	Totalmente sicura
+ZAP1594414_01	"    A me che i voti tuoi scorsi pietoso al lido piet?negar non puoi, se mai provasti amor"	Amore	Totalmente sicura
+ZAP1599806_01	"    Ogni belt?pi?rara bench?mi sia pietosa per me non ?vezzosa, vaga per me non ?Gioia"	abbastanza sicura	
+ZAP1593179_01	"    Mi trovo in un istante giudice, amico, amante e delinquente e re"	Paura	Abbastanza sicura
+ZAP1594002_01	    Quanto ?pi?facile che un gran diletto giunga ad uccidere che un gran dolor!	Tristezza	Totalmente sicura
+ZAP1593184_01	"    Tu sei cagione del tuo periglio, tu sei tormento del genitor"	Rabbia	Totalmente sicura
+ZAP1592784_01	"    Bench?altrove mi chiami il destino, m'incamino e poi torno a mirarti; muovo il passo e lasciarti non so"	Amore	Totalmente sicura
+ZAP1593560_00	Misero pargoletto il tuo destin non sai	Tristezza	Totalmente sicura
+ZAP1597852_00	Vorrei disciogliere le mie catene ma il volto amabile del caro bene toglie a quest'anima la libert?Amore	Totalmente sicura	
+ZAP1598388_00	"Al lampo di mia spada cadesti empio tiranno or vivi per tuo affanno, regna per tuo rossor"	Rabbia	Totalmente sicura
+ZAP1596996_00	Rigori finger? ripulse e sprezzi; sospiri verser? lagrime e prieghi	Rabbia	Totalmente sicura
+ZAP1596314_01	    Cos?l'ape i suoi favi soavi da pi?fiori succhiando sen va	Gioia	Totalmente sicura
+ZAP1593786_02	    Pria di tradir la f?perch?crudel perch?.	Rabbia	Totalmente sicura
+ZAP1596272_01	    Usa lusinghe e vezzi; tenta minacce e sprezzi; alma per te non ho	Rabbia	Totalmente sicura
+ZAP1592922_01	"    E se l'ingiusto fato vorr?ch'io cada alfine, cadr?ma vendicato, ma solo non cadr?Rabbia"	Totalmente sicura	
+ZAP1593184_00	"Non ti son padre, non mi sei figlio, piet?non sento d'un traditor"	Rabbia	Totalmente sicura
+ZAP1596886_01	"   nel suo dover costante sempre sar?quest'alma, bench?a celar bastante gli affetti suoi non fu"	Tristezza	Totalmente sicura
+ZAP1596876_01	"    Saran brevi i suoi contenti, se a tal segno ignote a lui son le limpide sorgenti della mia felicit?Gioia"	Totalmente sicura	
+ZAP1597136_01	"    In amarti, o mio diletto, tradir?per troppo affetto, mentir?per troppa f?Amore"	totalmente sicura	
+ZAP1594224_01	    Vado il fin de' giorni miei ad ornar di nuovi allori; vo di tanti miei sudori tutto il frutto a conservar	Gioia	Totalmente sicura
+ZAP1593786_00	"Come potesti, oh dio, perfido traditor.."	Rabbia	Totalmente sicura
+ZAP1593504_00	Prudente mi chiedi?	Rabbia	Abbastanza sicura
+ZAP1594093_01	"    Cadr? se vuole il fato, cadr?trafitto il seno; ma invendicato almeno, ma solo non cadr?Rabbia"	Totalmente sicura	
+ZAP1596060_02	"  Vorrei svenarmi, se mai credessi teco placarmi"	Rabbia	Totalmente sicura
+ZAP1593504_01	Mi brami innocente?	Rabbia	Abbastanza sicura
+ZAP1596060_00	Meco crudel cos?non sarai sempre	Rabbia	Totalmente sicura
+ZAP1596426_00	Al mio fedel dirai ch'io son... ch'io venni... Oh dio! Tutto il mio cor tu sai; parlagli col mio cor	Amore	Abbastanza sicura
+ZAP1593957_01	Che bramo che in pace mi lasci morir?	Rabbia	Totalmente sicura
+ZAP1594159_01	"    Troppo mi sembra estremo, temo che un sogno sia, temo destarmi e temo a' palpiti tornar"	Gioia	Totalmente sicura
+ZAP1598336_03	Perch?gode colla speme quel riposo che non ha	Tristezza	Abbastanza sicura
+ZAP1595927_01	"    Al sen perch?annodi l'amabile oggetto, Orgonte diletto, le tramo per te"	Rabbia	Abbastanza sicura
+ZAP1594154_00	"Non m'abbaglia quel lampo fugace; non m'alletta quel riso fallace; non mi fido, non temo di te"	Paura	totalmente sicura
+			
+ZAP1597148_01	"    Dacch?vi entr?l'audace avidit?di regno, part?la cara pace e si turb?il piacer"	Tristezza	Totalmente sicura
+ZAP1597863_00	"Gi?si desta la tempesta, hai nemici i venti e l'onde, io ti chiamo su le sponde e tu resti in mezzo al mar"	Tristezza	Abbastanza sicura
+ZAP1594002_00	"Par che di giubilo l'alma deliri, par che mi manchino quasi i respiri, che fuor del petto mi balzi il cor"	Amore	abbastanza sicura
+ZAP1594444_00	"Sfogati o ciel se ancora hai fulmini per me, che oppressa ancor non ?la mia costanza"	Rabbia	Abbastanza sicura
+ZAP1594449_02	    Dunque addio... Ma tu sospiri	Tristezza	Totalmente sicura
+ZAP1599836_00	So che per gioco mi chiedi amore	Tristezza	Abbastanza sicura
+ZAP1596247_01	Vola al nido la rondinella e si scorda que' lacci onde usc?Gioia	Totalmente sicura	
+ZAP1596996_01	"    Durezza in dittator, cos?si spezzi; orgoglio in vincitor, cos?si pieghi"	Rabbia	Totalmente sicura
+ZAP1599871_01	"Ma penso al tuo riposo, fidati pur di me"	Amore	Abbastanza sicura
+ZAP1598336_00	L'augelletto in lacci stretto perch?mai cantar s'ascolta?	Ammirazione	Abbastanza sicura
+ZAP1595975_03	Pi?tosto cadano queste vendette sul mio dolor	Tristezza	Totalmente sicura
+ZAP1596772_01	"    Me condannar non dei, giacch?ignorar non puoi che degli affetti suoi arbitro ognun non ?Rabbia"	Totalmente sicura	
+ZAP1593811_01	    Al mio spirto dal seno disciolto la memoria di tanti martiri sar?dolce con questa merc?Amore	Abbastanza sicura	
+ZAP1594460_01	    Non parlar d'un incostante; or son figlia e non amante; e non merita il mio affanno chi piet?non ha di me	Rabbia	Totalmente sicura
+ZAP1593786_03	Ah che del fallo mio tardi mi pento	Tristezza	Totalmente sicura
+ZAP1598445_00	"Tu mi scorgi al gran disegno  e al tuo sdegno, al tuo desio  l'ardir mio ti scorger?Amore"	Abbastanza sicura	
+ZAP1598236_00	"Gi?si desta la tempesta, hai nemici i venti e l'onde, io ti chiamo su le sponde e tu resti in mezzo al mar"	Tristezza	Abbastanza sicura
+ZAP1593811_00	"Se mai senti spirarti sul volto lieve fiato che lento s'aggiri, di': «Son questi gli estremi sospiri del mio fido che more per me?Amore"	Abbastanza sicura	
+ZAP1596504_01	"    D'affetti cos?rei se avessi il cor fecondo, m'involerei dal mondo, m'asconderei dal ciel"	Paura	forti dubbi
+ZAP1598336_01	Perch?spera un'altra volta di tornare in libert?Ammirazione	Abbastanza sicura	
+ZAP1596886_00	Basta cos? vincesti; ceduto ha il mio rigore; tutto il mio cor vedesti; non dimandar di pi?	Rabbia	abbastanza sicura
+ZAP1599826_01	    Che ti vedr?placata e vuol morirti al piede vittima sventurata d'un infelice amor	Amore	Totalmente sicura
+ZAP1599856_01	    Ma quando s'innamora ama ed amar non crede	Amore	Abbastanza sicura
+ZAP1599766_02	"    Misera ben son io che nel segreto laccio amo, non spero e taccio e l'idol mio nol sa"	Tristezza	Totalmente sicura
+ZAP1594134_00	Basta dir ch'io sono amante per saper che ho gi?nel petto questo barbaro sospetto che avvelena ogni piacer	Paura	Abbastanza sicura
+ZAP1599766_00	Misero tu non sei	Tristezza	Totalmente sicura
+ZAP1592912_01	"    Che possa provarlo quell'anima ingrata,  quel petto di scoglio, quel barbaro cor"	Rabbia	Totalmente sicura
+ZAP1597852_01	"    Ancor che misero sia questo core, pur soffre placido l'altrui rigore, l'amato carcere lasciar non sa"	Tristezza	Totalmente sicura
+ZAP1594449_06	"    Non temer, eccetera. (Parte)    Per piet? eccetera"	Tristezza	Totalmente sicura
+ZAP1600031_00	"Non vi piacque ingiusti dei ch'io nascessi pastorella, altra pena or non avrei che la cura d'un'agnella, che l'affetto d'un pastor"	Tristezza	Totalmente sicura
+ZAP1593671_01	"Voglio vendetta, non chiedo amor"	Rabbia	Totalmente sicura
+ZAP1592922_00	Il ciel mi vuole oppresso; ma su le mie ruine il vincitore istesso impallidir far?Gioia	Abbastanza sicura	
+ZAP1593926_01	"    Di' ch'ho per lei nel seno di re, di padre il core, che appaghi il genitore o che ubbidisca il re"	Rabbia	Abbastanza sicura
+ZAP1594007_01	"    Gi?quel barbaro, quell'empio fa di sangue il suol vermiglio; ed il sangue del mio figlio gi?si sente rinfacciar"	Rabbia	Totalmente sicura
+ZAP1598079_00	Son regina e sono amante e l'impero io sola voglio del mio soglio e del mio cor	Ammirazione	Abbastanza sicura
+ZAP1596122_01	    Si fan dolci in quel momento e le lagrime e i sospiri; le memorie de' martiri si convertono in piacer	Gioia	Totalmente sicura
+ZAP1596066_00	A me infedel?. Perch?	Tristezza	Totalmente sicura
+ZAP1596354_00	Nel seren di quel sembiante riso e gioia briller?Gioia	Totalmente sicura	
+ZAP1597353_01	"    La mia costanza sar?pi?forte d'ogni speranza, d'ogni timor"	Gioia	Abbastanza sicura
+ZAP1597011_00	"Non dispetto, non speranza sedurr?la mia costanza sul destino del tuo figlio"	Ammirazione	Forti dubbi
+ZAP1597011_01	"    Ma del giusto e del dovere far?legge al mio potere, far?norma al mio consiglio"	Ammirazione	Forti dubbi
+ZAP1599871_02	    Allor che t'abbandono conoscerai chi sono	Amore	Abbastanza sicura
+ZAP1596272_00	"Non amarmi, non pregarmi, so che inganni, non ti amer?Rabbia"	Totalmente sicura	
