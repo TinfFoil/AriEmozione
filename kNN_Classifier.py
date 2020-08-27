@@ -35,7 +35,6 @@ def kNN_KFOLD(train, train_y, test, test_y):
         fold_no += 1
 
     print('------------------------------------------------------------------------')
-    print('')
     print('Score per fold')
     for n in range(0, len(acc_per_fold)):
         print('------------------------------------------------------------------------')
