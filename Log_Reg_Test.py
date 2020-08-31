@@ -22,7 +22,7 @@ def LogReg_KFOLD(train, train_y, test, test_y):
         y_pred = LogReg.predict(inputs[test])
         acc = metrics.accuracy_score(targets[test], y_pred)
         acc_per_fold.append(acc * 100)
-        print(f"LogReg Accuracy per Fold {fold_no} with k=1:", acc)
+        print(f"LogReg Accuracy per Fold {fold_no}:", acc)
         reports.append(classification_report(targets[test], y_pred, output_dict=True))
         cm = confusion_matrix(targets[test], y_pred)
         cm = cm / cm.astype(np.float).sum(axis=1)
