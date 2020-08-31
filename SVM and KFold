@@ -1,0 +1,30 @@
+from sklearn.svm import SVC
+from sklearn.model_selection import KFold
+from sklearn.metrics import confusion_matrix
+#3-grams trigram_tfidf and trigram_tfidf_dev
+#trigram_svd, trigram_svd_dev
+#trigram_ldia,trigram_ldia_dev
+#word aria_tfidf and dev_tfidf
+#word aria_svd,dev_svd
+#aria_ldia, dev_ldia
+#clean_tfidf, clean_svd, clean_ldia, clean_tfidf_dev, clean_svd_dev, clean_ldia_dev
+acc= []
+cm=[]
+best_svc = SVC(kernel='rbf',C=1000,class_weight=weight,gamma=0.001)
+kf = KFold(n_splits=10)
+fold_no = 1
+X=np.concatenate((aria_svd,dev_svd), axis=0)
+Y=np.concatenate((encoded_train,encoded_dev), axis=0)
+for train, test in kf.split(X):
+        print('------------------------------------------------------------------------')
+        print(f'Training for fold {fold_no} ...')
+#        best_svc.fit(X[train],Y[train])
+        y_pred = best_svc.fit(X[train], Y[train]).predict(X[test])
+        acc.append(best_svc.score(X[test], Y[test]))
+        i=confusion_matrix(Y[test], y_pred)
+        cm.append(i/i.astype(np.float).sum(axis=1))
+        fold_no+=1
+cm_final=np.nanmean(new_cm, axis=0)
+print(f'> Accuracy: {np.mean(acc).round(2)} (+- {np.std(acc).round(3)})')
+for i in cm_final:
+    print(i)
