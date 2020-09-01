@@ -24,7 +24,7 @@ def kNN_KFOLD(train, train_y, test, test_y):
         acc_per_fold.append(acc * 100)
         print(f"kNN Accuracy per Fold {fold_no} with k=1:", acc)
 
-        reports.append(classification_report(targets[test], y_pred))
+        reports.append(classification_report(targets[test], y_pred, output_dict=True))
 
         cm = confusion_matrix(targets[test].argmax(axis=1), y_pred.argmax(axis=1))
         cm = cm / cm.astype(np.float).sum(axis=1)
@@ -36,20 +36,23 @@ def kNN_KFOLD(train, train_y, test, test_y):
 
     print('------------------------------------------------------------------------')
     print('Score per fold')
+    f1_report = list()
     for n in range(0, len(acc_per_fold)):
-        print('------------------------------------------------------------------------')
-        print(f'> Fold {n + 1} - Accuracy: {acc_per_fold[n]}%')
-        print('------------------------------------------------------------------------')
+        #print('------------------------------------------------------------------------')
+        #print(f'> Fold {n + 1} - Accuracy: {acc_per_fold[n]}%')
+        #print('------------------------------------------------------------------------')
         # print(f'> Per Class Report:\n{reports[n]}')
+        f1_report.append(reports[n]['weighted avg']['f1-score'])
     print('------------------------------------------------------------------------')
     print('Average scores for all folds:')
-    print(f'> Accuracy: {np.mean(acc_per_fold)} (+- {np.std(acc_per_fold)})')
+    print(f'> Accuracy: {np.mean(acc_per_fold).round(3)} (+- {np.std(acc_per_fold).round(3)})')
+    print(f'> F1-Score: {np.mean(f1_report).round(3)}')
     print(f'> Confusion Matrix:\n{np.nanmean(cf_matrices, axis=0)}')
     print('------------------------------------------------------------------------')
 
 
-kNN_KFOLD(aria_svd, dummy_y, dev_svd, dummy_dev)
 kNN_KFOLD(aria_tfidf, dummy_y, dev_tfidf, dummy_dev)
+kNN_KFOLD(aria_svd, dummy_y, dev_svd, dummy_dev)
 kNN_KFOLD(aria_ldia, dummy_y, dev_ldia, dummy_dev)
 kNN_KFOLD(trigram_tfidf, dummy_y, trigram_tfidf_dev, dummy_dev)
 kNN_KFOLD(trigram_svd, dummy_y, trigram_svd_dev, dummy_dev)
