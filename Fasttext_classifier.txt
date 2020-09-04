@@ -1,0 +1,142 @@
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+from keras.utils import np_utils
+from collections import Counter
+from pandas import DataFrame
+columns = ["Names", "Text", "Emotion", "Fiducia", "?"]
+df = pd.read_csv("ariaset_train.tsv", sep="\t", encoding="latin-1", names=columns)
+df_dev = pd.read_csv("ariaset_dev.tsv", sep="\t", encoding="latin-1", names=columns)
+def preprocess(data):
+    df = data.drop(['?'], axis=1)
+    df = df.dropna()
+    df = df.sample(frac=1)
+    for idx, cell in df["Text"].iteritems():  # ZAP1596906_00,ZAP1596906_01 must be corrected, they have no "Emotion" evaluation
+        if 'Nessuna' in df.loc[idx, 'Emotion']:  # skipping lines with no label for Emotion
+            df = df.drop(idx)
+    return df
+df = preprocess(df)
+aria_text = df["Text"]
+emotion = df["Emotion"]
+emotion_list = emotion.tolist()
+encoder = LabelEncoder()
+encoder.fit(emotion_list)
+encoded_train = encoder.transform(emotion_list)
+dummy_y = np_utils.to_categorical(encoded_train)
+print(f"Classes to be predicted: {encoder.classes_}\n", f"Corresponding number: {set(encoded_train)}\n",
+      f"Instances per class: {Counter(encoded_train)}")
+
+df_dev = preprocess(df_dev)
+dev_text = df_dev["Text"]
+dev_emotion = df_dev["Emotion"]
+dev_emotion_list = dev_emotion.tolist()
+encoder = LabelEncoder()
+encoder.fit(dev_emotion_list)
+encoded_dev = encoder.transform(dev_emotion_list)
+dummy_dev = np_utils.to_categorical(encoded_dev)
+print(f"Classes to be predicted: {encoder.classes_}\n", f"Corresponding number: {set(encoded_dev)}\n",
+      f"Instances per class: {Counter(encoded_dev)}")
+
+import fasttext.util
+import fasttext
+from pandas import DataFrame
+import it_core_news_sm
+import re
+nlp = it_core_news_sm.load()
+def tokenizer_FASTTEXT(doc):
+    tokenize = []
+    new_verse=[]
+    for x in doc:
+        verse = nlp(x)
+        new_verse = []
+        for w in verse:
+            regex = re.compile(r'( +|\'|\-|\,|\!|\:|\;|\?|\.|\(|\)|\«|\»)')
+            if not regex.match(w.text):
+                w_lower = w.text.casefold()
+                new_verse.append(w_lower)
+        tokenize.append(" ".join(new_verse))
+
+    return tokenize
+
+tokenized = tokenizer_FASTTEXT(aria_text)
+tokenized_dev = tokenizer_FASTTEXT(dev_text)
+
+train=[]
+for i,j in zip(emotion,tokenized):
+    t="__label__"+i+" "+j+"\n"
+    train.append(t)
+file_train= open("train.txt","w")
+file_train.writelines(train)
+dev=[]
+for i,j in zip(dev_emotion,tokenized_dev):
+    t="__label__"+i+" "+j+"\n"
+    dev.append(t)
+file_train= open("dev.txt","w")
+file_train.writelines(dev)
+
+import fasttext
+import itertools
+#train fasttext model at word level
+epoch=[30,35,40,45,50,55,60]
+lr=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
+combinations = list(itertools.product(*[epoch,lr]))
+
+accuracy=dict()
+for i in combinations:
+    e,lr=i
+    model=fasttext.train_supervised(input="train.txt",epoch=e,lr=lr)
+    accuracy[i]=model.test("dev.txt")[1]
+
+best_com_word={(35, 0.7): 0.3901098901098901, (40, 0.1): 0.4065934065934066, (40, 1): 0.4065934065934066,(45, 0.1): 0.4010989010989011,(45, 1): 0.4010989010989011, (50, 1): 0.4010989010989011}
+
+epoch=[30,35,40,45,50,55,60]
+lr=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
+n=[2]
+accuracy2=dict()
+combinations_ngram = list(itertools.product(*[epoch,lr,n]))
+for i in combinations_ngram:
+    e,lr,n=i
+    model = fasttext.train_supervised(input="train.txt", lr=lr, epoch=e, wordNgrams=n)
+    accuracy2[i]=model.test("dev.txt")[1]
+epoch=[30,35,40,45,50,55,60]
+lr=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
+n=[3]
+accuracy3=dict()
+combinations_ngram = list(itertools.product(*[epoch,lr,n]))
+for i in combinations_ngram:
+    e,lr,n=i
+    model = fasttext.train_supervised(input="train.txt", lr=lr, epoch=e, wordNgrams=n)
+    accuracy3[i]=model.test("dev.txt")[1]
+epoch=[30,35,40,45,50,55,60]
+lr=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
+n=[4]
+accuracy4=dict()
+combinations_ngram = list(itertools.product(*[epoch,lr,n]))
+for i in combinations_ngram:
+    e,lr,n=i
+    model = fasttext.train_supervised(input="train.txt", lr=lr, epoch=e, wordNgrams=n)
+    accuracy4[i]=model.test("dev.txt")[1]
+epoch=[30,35,40,45,50,55,60]
+lr=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
+n=[5]
+accuracy5=dict()
+combinations_ngram = list(itertools.product(*[epoch,lr,n]))
+for i in combinations_ngram:
+    e,lr,n=i
+    model = fasttext.train_supervised(input="train.txt", lr=lr, epoch=e, wordNgrams=n)
+    accuracy5[i]=model.test("dev.txt")[1]
+epoch=[30,35,40,45,50,55,60]
+lr=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
+n=[6]
+accuracy6=dict()
+combinations_ngram = list(itertools.product(*[epoch,lr,n]))
+for i in combinations_ngram:
+    e,lr,n=i
+    model = fasttext.train_supervised(input="train.txt", lr=lr, epoch=e, wordNgrams=n)
+    accuracy6[i]=model.test("dev.txt")[1]
+
+com_2gram={(30, 0.1, 2): 0.4301675977653631,(35, 0.1, 2): 0.4301675977653631,(30, 1, 2): 0.41899441340782123}
+com_3gram={(45, 0.1, 3): 0.44692737430167595,(40, 0.1, 3): 0.43575418994413406,(40, 0.8, 3): 0.4245810055865922}
+com_4gram={(55, 0.1, 4): 0.44692737430167595,(30, 0.5, 4): 0.4245810055865922,(35, 0.6, 4): 0.43575418994413406}
+com_5gram={(30, 0.4, 5): 0.45251396648044695,(30, 0.3, 5): 0.44692737430167595,(35, 0.4, 5): 0.44692737430167595}
+com_6gram={(40, 0.4, 6): 0.4581005586592179,(55, 0.3, 6): 0.45251396648044695,(35, 0.2, 6): 0.44692737430167595}
