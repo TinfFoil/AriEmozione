@@ -1,6 +1,6 @@
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
-from Vectorization import *
+from Tokenize_Vectorize import *
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import KFold
 import numpy as np
