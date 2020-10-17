@@ -53,9 +53,9 @@ test_tfidf = pd.DataFrame(test_tfidf)
 
 # Words - SVD
 svd = TruncatedSVD(n_components=32, n_iter=100)
-cv_tfidf = svd.fit_transform(cv_tfidf)
-cv_tfidf = pd.DataFrame(cv_tfidf)
-cv_tfidf = sc.fit_transform(cv_tfidf)
+cv_svd = svd.fit_transform(cv_tfidf)
+cv_svd = pd.DataFrame(cv_svd)
+cv_svd = sc.fit_transform(cv_svd)
 
 dev_svd = svd.transform(dev_tfidf)
 dev_svd = pd.DataFrame(dev_svd)
