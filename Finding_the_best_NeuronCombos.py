@@ -82,7 +82,7 @@ def three_layers_try_epoch(combination_dict, tra, tra_y, tes, tes_y, dims):
 def neuron_x_epoch_selection(tup, train, train_y, test, test_y, dims):
     best_neurons_ = try_three_layers(tup, train, train_y, test, test_y, dims)
     best_neurons_x_epoch = three_layers_try_epoch(best_neurons_, train, train_y, test, test_y, dims)
-    return best_neurons_x_epoch
+    return best_neurons_x_epoch, best_neurons_
 
 
 best_combinations, best_neurons = neuron_x_epoch_selection(combinations, x_train, x_test, y_train, y_test, dm)
