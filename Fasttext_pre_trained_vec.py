@@ -1,9 +1,12 @@
-#import fasttext preprocessing file and other files here
 import fasttext.util
 import fasttext
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
-#fasttext with pre-trained character trigram vectors. Trained using train set and tested using dev set
+from Preprocessing import *
+from Tokenize_Vectorize import *
+from Fasttext_preprocessing import *
+
+#fasttext with pre-trained character trigram vectors. Trained using cv set and tested using dev set
 accuracy_trigram = list()
 conf_trigram = list()
 f1_trigram = list()
@@ -17,7 +20,7 @@ parameters_trigram = [(1, 0.3),
 for i in parameters_trigram:
     prediction = []
     epoch, lr = i    
-    model = fasttext.train_supervised(input = "train.txt", lr = lr, epoch = epoch, minn = 3, maxn = 3, dim = 300, pretrainedVectors = "D:/vec/cc.it.300.vec/cc.it.300.vec")
+    model = fasttext.train_supervised(input = "cv.txt", lr = lr, epoch = epoch, minn = 3, maxn = 3, dim = 300, pretrainedVectors = "D:/vec/cc.it.300.vec/cc.it.300.vec")
     accuracy_trigram.append((model.test("dev.txt")[1], "parameters:", i))
     for line in dev_text_fa:
         line = line.strip('\n')
@@ -28,7 +31,7 @@ for i in parameters_trigram:
     conf_trigram.append((c/c.astype(np.float).sum(axis = 1)))
 
     
-#fasttext with pre-trained word vectors. Trained using train set and tested using dev set
+#fasttext with pre-trained word vectors. Trained using cv set and tested using dev set
 accuracy_word = list()
 conf_word = list()
 f1_word = list()
@@ -44,7 +47,7 @@ parameters_word = [(1, 0.3),
 for i in parameters_word:
     prediction = []
     epoch, lr = i    
-    model = fasttext.train_supervised(input = "train.txt", lr = lr, epoch = epoch, dim = 300, pretrainedVectors = "D:/vec/cc.it.300.vec/cc.it.300.vec") 
+    model = fasttext.train_supervised(input = "cv.txt", lr = lr, epoch = epoch, dim = 300, pretrainedVectors = "D:/vec/cc.it.300.vec/cc.it.300.vec") 
     accuracy_word.append((model.test("dev.txt")[1], "parameters:", i))
     for line in dev_text_fa:
         line = line.strip('\n')
@@ -54,7 +57,7 @@ for i in parameters_word:
     c = confusion_matrix(encoded_dev, prediction)
     conf_word.append((c/c.astype(np.float).sum(axis = 1)))
 
-#fasttext with pre-trained character trigram vectors. Trained using train set and dev set, tested using test set
+#fasttext with pre-trained character trigram vectors. Trained using cv set and dev set, tested using test set
 accuracy_trigram_test = list()
 conf_trigram_test = list()
 f1_trigram_test = list()
@@ -62,7 +65,7 @@ parameters_trigram_test = [(3, 0.6)]
 for i in parameters_trigram_test:
     prediction = []
     epoch, lr = i    
-    model = fasttext.train_supervised(input = "train_dev.txt", lr = lr, epoch = epoch, minn = 3, maxn = 3, dim = 300, pretrainedVectors = "D:/vec/cc.it.300.vec/cc.it.300.vec")    
+    model = fasttext.train_supervised(input = "train.txt", lr = lr, epoch = epoch, minn = 3, maxn = 3, dim = 300, pretrainedVectors = "D:/vec/cc.it.300.vec/cc.it.300.vec")    
     accuracy_trigram_test.append((model.test("test.txt")[1]))
     for line in test_text_fa:
         line = line.strip('\n')
@@ -81,7 +84,7 @@ parameters_word_test = [(5, 0.6)]
 for i in parameters_word_test:
     prediction = []
     epoch, lr = i    
-    model = fasttext.train_supervised(input = "train_dev.txt", lr = lr, epoch = epoch, dim = 300, pretrainedVectors = "D:/vec/cc.it.300.vec/cc.it.300.vec")    
+    model = fasttext.train_supervised(input = "train.txt", lr = lr, epoch = epoch, dim = 300, pretrainedVectors = "D:/vec/cc.it.300.vec/cc.it.300.vec")    
     accuracy_word_test.append((model.test("test.txt")[1]))
     for line in test_text_fa:
         line = line.strip('\n')

@@ -1,46 +1,51 @@
-#import here the preprocessing file
-
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import f1_score
+from sklearn.model_selection import KFold
 import fasttext.util
 import fasttext
 import itertools
-#
-train_tokenized = tokenizer_FASTTEXT(aria_text)
+import statistics
+from Preprocessing import *
+from Tokenize_Vectorize import *
+from Fasttext_preprocessing import *
+
+cv_tokenized = tokenizer_FASTTEXT(cv_text)
 dev_tokenized = tokenizer_FASTTEXT(dev_text)
 
 #fasttext classifier using trigram
 def fasttext_ngram(para, n):
-    ac = list()
-    c = list()
-    f1_score = list()
-    acc_st = list()
-    f1_st = list()
-    datase = np.concatenate((train_tokenized, dev_tokenized), axi = 0)
-    labe = np.concatenate((emotion, dev_emotion), axi = 0)
-    kf = KFold(n_split = 10)
-    re_ac = list()
-    re_f = list()
-    re_c = list()
+    acc = list()
+    cm = list()
+    f1_scores = list()
+    acc_std = list()
+    f1_std = list()
+    dataset = np.concatenate((cv_tokenized, dev_tokenized), axis = 0)
+    label = np.concatenate((emotion, dev_emotion), axis = 0)
+    kf = KFold(n_splits = 10)
+    re_acc = list()
+    re_f1 = list()
+    re_cm = list()
     for i in para:        
-        epoch, l = i
-         = n
+        epoch, lr = i
+        n = n
         for train, test in kf.split(dataset):
-            prediction = []
-            test_label_nu = convert_emotion_list_to_string_of_numbers(label[test])
-            fn_trai = label_data(label[train], dataset[train], "train")
-            fn_tes = label_data(label[test], dataset[test], "test")
-             = label_data_return_list(label[test], dataset[test])
-            mode = fasttext.train_supervised(inpu = fn_train, l = lr, epoc = epoch, min = n, max = n)
+            predictions = []
+            test_label_num = convert_emotion_list_to_string_of_numbers(label[test])
+            fn_train = label_data(label[train], dataset[train], "train")
+            fn_test = label_data(label[test], dataset[test], "test")
+            Y = label_data_return_list(label[test], dataset[test])
+            model = fasttext.train_supervised(input = fn_train, lr = lr, epoch = epoch, minn = n, maxn = n)
             for line in Y:
-                lin = line.strip('\n')
+                line = line.strip('\n')
                 predictions.append(model.predict(line))
-            pre = convert_pre(predictions)
-            f1_scores.append(f1_score(test_label_num, pred, averag = 'weighted'))
-            con = confusion_matrix(test_label_num, pred)
-            cm.append(conf/conf.astype(np.float).sum(axi = 1))
+            pred = convert_pre(predictions)
+            f1_scores.append(f1_score(test_label_num, pred, average = 'weighted'))
+            conf = confusion_matrix(test_label_num, pred)
+            cm.append(conf/conf.astype(np.float).sum(axis = 1))
             acc.append(model.test(fn_test)[1])
-        ave_ac = Average(acc)
-        ave_f = Average(f1_scores)
-        ave_c = np.nanmean(cm, axi = 0)
+        ave_acc = Average(acc)
+        ave_f1 = Average(f1_scores)
+        ave_cm = np.nanmean(cm, axis = 0)
         re_acc.append(ave_acc)
         re_f1.append(ave_f1)
         re_cm.append(ave_cm)
@@ -53,34 +58,34 @@ def fasttext_word(para):
     acc = list()
     cm = list()
     f1_scores = list()       
-    dataset = np.concatenate((train_tokenized, dev_tokenized), axi = 0)
-    label = np.concatenate((emotion, dev_emotion), axi = 0)
-    kf = KFold(n_split = 10)
+    dataset = np.concatenate((cv_tokenized, dev_tokenized), axis = 0)
+    label = np.concatenate((emotion, dev_emotion), axis = 0)
+    kf = KFold(n_splits = 10)
     re_acc = list()
     re_f1 = list()
     re_cm = list()
     acc_std = list()
     f1_std = list()
     for i in para:        
-        epoch, l = i
+        epoch, lr = i
         for train, test in kf.split(dataset):
-            prediction = []
-            test_label_nu = convert_emotion_list_to_string_of_numbers(label[test])
-            fn_trai = label_data(label[train], dataset[train], "train")
-            fn_tes = label_data(label[test], dataset[test], "test")
-             = label_data_return_list(label[test], dataset[test])
-            mode = fasttext.train_supervised(inpu = fn_train, l = lr, epoc = epoch)
+            predictions = []
+            test_label_num = convert_emotion_list_to_string_of_numbers(label[test])
+            fn_train = label_data(label[train], dataset[train], "train")
+            fn_test = label_data(label[test], dataset[test], "test")
+            Y = label_data_return_list(label[test], dataset[test])
+            mode = fasttext.train_supervised(input = fn_train, lr = lr, epoch = epoch)
             for line in Y:
-                lin = line.strip('\n')
+                line = line.strip('\n')
                 predictions.append(model.predict(line))
-            pre = convert_pre(predictions)
-            f1_scores.append(f1_score(test_label_num, pred, averag = 'weighted'))
-            con = confusion_matrix(test_label_num, pred)
-            cm.append(conf/conf.astype(np.float).sum(axi = 1))
+            pred = convert_pre(predictions)
+            f1_scores.append(f1_score(test_label_num, pred, average = 'weighted'))
+            conf = confusion_matrix(test_label_num, pred)
+            cm.append(conf/conf.astype(np.float).sum(axis = 1))
             acc.append(model.test(fn_test)[1])
-        ave_ac = Average(acc)
-        ave_f = Average(f1_scores)
-        ave_c = np.nanmean(cm, axi = 0)
+        ave_acc = Average(acc)
+        ave_f1 = Average(f1_scores)
+        ave_cm = np.nanmean(cm, axis = 0)
         re_acc.append(ave_acc)
         re_f1.append(ave_f1)
         re_cm.append(ave_cm)

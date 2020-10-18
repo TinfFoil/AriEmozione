@@ -1,0 +1,44 @@
+
+
+df_train = pd.concat([cv_text, dev_text])
+train_emotion = np.concatenate([emotion, dev_emotion])
+
+
+cv_tokenized = tokenizer_FASTTEXT(cv_text)
+dev_tokenized = tokenizer_FASTTEXT(dev_text)
+test_tokenized = tokenizer_FASTTEXT(test_text)
+train_tokenized = tokenizer_FASTTEXT(df_train)
+
+
+#prepare dataset for fasttext
+
+
+cv = []
+for i, j in zip(emotion, cv_tokenized):
+    t = "__label__"+i+" "+j+"\n"
+    cv.append(t)
+file_train = open("cv.txt", "w")
+file_train.writelines(cv)
+
+dev = []
+for i, j in zip(dev_emotion, dev_tokenized):
+    t = "__label__"+i+" "+j+"\n"
+    dev.append(t)
+file_train = open("dev.txt", "w")
+file_train.writelines(dev)
+dev_text_fa = label_data_return_list(dev_emotion, dev_tokenized)
+
+test = []
+for i, j in zip(test_emotion, test_tokenized):
+    t = "__label__"+i+" "+j+"\n"
+    test.append(t)
+file_train = open("test.txt", "w")
+file_train.writelines(test)
+test_text_fa = label_data_return_list(test_emotion, test_tokenized)
+
+train = []
+for i, j in zip(train_emotion, train_tokenized):
+    t = "__label__"+i+" "+j+"\n"
+    train.append(t)
+file_train = open("train.txt", "w")
+file_train.writelines(train)
