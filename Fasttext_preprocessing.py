@@ -35,8 +35,11 @@ cv = []
 for i, j in zip(emotion, cv_tokenized):
     t = "__label__"+i+" "+j+"\n"
     cv.append(t)
-file_train = open("cv.txt", "w")
-file_train.writelines(cv)
+#file_train = open("cv.txt", "w")
+#file_train.writelines(cv)
+with open("cv.txt", 'w') as f:
+    for s in cv:
+        f.write(str(s))
 
 dev = []
 for i, j in zip(dev_emotion, dev_tokenized):
