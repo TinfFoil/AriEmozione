@@ -35,17 +35,17 @@ cv = []
 for i, j in zip(emotion, cv_tokenized):
     t = "__label__"+i+" "+j+"\n"
     cv.append(t)
-#file_train = open("cv.txt", "w")
-#file_train.writelines(cv)
-with open("cv.txt", 'w',encoding="latin-1") as f:
-    for s in cv:
-        f.write(str(s))
+file_train = open("cv.txt", "w",encoding="latin-1")
+file_train.writelines(cv)
+#with open("cv.txt", 'w',encoding="latin-1") as f:
+#    for s in cv:
+#        f.write(str(s))
 
 dev = []
 for i, j in zip(dev_emotion, dev_tokenized):
     t = "__label__"+i+" "+j+"\n"
     dev.append(t)
-file_train = open("dev.txt", "w")
+file_train = open("dev.txt", "w",encoding="latin-1")
 file_train.writelines(dev)
 dev_text_fa = label_data_return_list(dev_emotion, dev_tokenized)
 
@@ -53,7 +53,7 @@ test = []
 for i, j in zip(test_emotion, test_tokenized):
     t = "__label__"+i+" "+j+"\n"
     test.append(t)
-file_train = open("test.txt", "w")
+file_train = open("test.txt", "w",encoding="latin-1")
 file_train.writelines(test)
 test_text_fa = label_data_return_list(test_emotion, test_tokenized)
 
@@ -61,5 +61,5 @@ train = []
 for i, j in zip(train_emotion, train_tokenized):
     t = "__label__"+i+" "+j+"\n"
     train.append(t)
-file_train = open("train.txt", "w")
+file_train = open("train.txt", "w",encoding="latin-1")
 file_train.writelines(train)
