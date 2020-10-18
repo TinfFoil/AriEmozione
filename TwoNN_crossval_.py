@@ -82,7 +82,7 @@ def TwoNN_crossval(combinations, train, train_y, test, test_y, dims): #this perf
         for (neurons, val) in combinations.items():
             one_combo = dict()
             one_combo[neurons] = val
-            TwoNN_crossval(one_combo, train, train_y, test, test_y)
+            TwoNN_crossval(one_combo, train, train_y, test, test_y, dims)
 
 '''
 These are the Neuron*Epochs obtained from the Finding_the_best_NeuronCombos2.py - the values are set to 1 since
