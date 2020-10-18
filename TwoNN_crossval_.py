@@ -59,10 +59,10 @@ def TwoNN_crossval(combinations, train, train_y, test, test_y, dims): #this perf
             print('Score per fold')
             f1_report = []
             for n in range(0, len(acc_per_fold)):
-                print('------------------------------------------------------------------------')
-                print(f'> Fold {n + 1} - Loss: {loss_per_fold[n]} - Accuracy: {acc_per_fold[n]}%')
-                print('------------------------------------------------------------------------')
-                print(f'> Per Class Report:\n{reports[n]}')
+                #print('------------------------------------------------------------------------')
+                #print(f'> Fold {n + 1} - Loss: {loss_per_fold[n]} - Accuracy: {acc_per_fold[n]}%')
+                #print('------------------------------------------------------------------------')
+                #print(f'> Per Class Report:\n{reports[n]}')
                 f1_report.append(reports[n]['weighted avg']['f1-score'])
             print('------------------------------------------------------------------------')
             print(i)
