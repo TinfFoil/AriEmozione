@@ -6,9 +6,9 @@ from keras.utils import np_utils
 
 columns = ["Names", "Text", "Emotion", "Fiducia", "?"]
 
-df_cv = pd.read_csv("ariaset_train.tsv", sep="\t", encoding="utf-8", names=columns)
-df_dev = pd.read_csv("ariaset_dev.tsv", sep="\t", encoding="utf-8", names=columns)
-df_test = pd.read_csv("ariaset_test.tsv", sep="\t", encoding="utf-8", names=columns)
+df_cv = pd.read_csv("ariaset_train.tsv", sep="\t", encoding="latin-1", names=columns)
+df_dev = pd.read_csv("ariaset_dev.tsv", sep="\t", encoding="latin-1", names=columns)
+df_test = pd.read_csv("ariaset_test.tsv", sep="\t", encoding="latin-1", names=columns)
 
 
 # Simple function to correctly set up the df
