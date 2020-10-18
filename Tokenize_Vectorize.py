@@ -20,20 +20,7 @@ def italian_tokenizer(verse):
     return tokenized
 
 
-def tokenizer_FASTTEXT(doc):
-    tokenize = []
-    new_verse = []
-    for x in doc:
-        verse = nlp(x)
-        new_verse = []
-        for w in verse:
-            regex = re.compile(r'( +|\'|\-|\,|\!|\:|\;|\?|\.|\(|\)|\«|\»|\")')
-            if not regex.match(w.text):
-                w_lower = w.text.casefold()
-                new_verse.append(w_lower)
-        tokenize.append(" ".join(new_verse))
 
-    return tokenize
 
 
 # Words - TF-IDF
