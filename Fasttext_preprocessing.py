@@ -1,5 +1,22 @@
 from Preprocessing import *
 
+
+def tokenizer_FASTTEXT(doc):
+    tokenize = []
+    new_verse = []
+    for x in doc:
+        verse = nlp(x)
+        new_verse = []
+        for w in verse:
+            regex = re.compile(r'( +|\'|\-|\,|\!|\:|\;|\?|\.|\(|\)|\«|\»|\")')
+            if not regex.match(w.text):
+                w_lower = w.text.casefold()
+                new_verse.append(w_lower)
+        tokenize.append(" ".join(new_verse))
+
+    return tokenize
+
+
 df_train = pd.concat([cv_text, dev_text])
 train_emotion = np.concatenate([emotion, dev_emotion])
 
