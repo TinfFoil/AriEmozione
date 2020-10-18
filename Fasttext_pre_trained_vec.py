@@ -29,6 +29,7 @@ for i in parameters_trigram:
     f1_trigram.append(f1_score(encoded_dev, prediction, average = 'weighted'))
     c = confusion_matrix(encoded_dev, prediction)
     conf_trigram.append((c/c.astype(np.float).sum(axis = 1)))
+    
 
     
 #fasttext with pre-trained word vectors. Trained using cv set and tested using dev set
@@ -76,7 +77,7 @@ for i in parameters_trigram_test:
     conf_trigram_test.append((c/c.astype(np.float).sum(axis = 1)))
 
     
-#fasttext with pre-trained word vectors. Trained using train set and dev set, tested using test set
+#fasttext with pre-trained word vectors. Trained using cv set and dev set, tested using test set
 accuracy_word_test = list()
 conf_word_test = list()
 f1_word_test = list()
@@ -93,3 +94,39 @@ for i in parameters_word_test:
     f1_word_test.append(f1_score(encoded_test, prediction, average = 'weighted'))
     c = confusion_matrix(encoded_test, prediction)
     conf_word_test.append((c/c.astype(np.float).sum(axis = 1)))
+    
+for i, acc, f1, conf in zip(parameters_trigram, accuracy_trigram, f1_trigram, conf_trigram):
+    e,l=i
+    print('Trigram Test Result--------------------------')
+    print(f'> With Epoch: {e},Learning rate:{l}')
+    print(f'> Accuracy: {acc})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
+    
+for i, acc, f1, conf in zip(parameters_word, accuracy_word, f1_word, conf_word):
+    e,l=i
+    print('Word Test Result--------------------------')
+    print(f'> With Epoch: {e},Learning rate:{l}')
+    print(f'> Accuracy: {acc})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
+    
+for i, acc, f1, conf in zip(parameters_trigram_test, accuracy_trigram_test, f1_trigram_test, conf_trigram_test):
+    e,l=i
+    print('Trigram Test Result--------------------------')
+    print(f'> With Epoch: {e},Learning rate:{l}')
+    print(f'> Accuracy: {acc})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
+    
+for i, acc, f1, conf in zip(parameters_word_test, accuracy_word_test, f1_word_test, conf_word_test):
+    e,l=i
+    print('Word Test Result--------------------------')
+    print(f'> With Epoch: {e},Learning rate:{l}')
+    print(f'> Accuracy: {acc})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')

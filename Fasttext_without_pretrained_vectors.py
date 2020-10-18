@@ -49,3 +49,21 @@ for i in parameters_word:
     f1_word.append(f1_score(encoded_test, prediction, average = 'weighted'))
     c = confusion_matrix(encoded_test, prediction)
     conf_word.append((c/c.astype(np.float).sum(axi = 1)))
+    
+for i, acc, f1, conf in zip(parameters_trigram, accuracy_trigram, f1_trigram, conf_trigram):
+    e,l=i
+    print('Trigram Test Result--------------------------')
+    print(f'> With Epoch: {e},Learning rate:{l}')
+    print(f'> Accuracy: {acc})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
+    
+for i, acc, f1, conf in zip(parameters_word, accuracy_word, f1_word, conf_word):
+    e,l=i
+    print('Word Test Result--------------------------')
+    print(f'> With Epoch: {e},Learning rate:{l}')
+    print(f'> Accuracy: {acc})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')

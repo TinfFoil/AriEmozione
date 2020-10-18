@@ -104,3 +104,24 @@ parameters_word = list(itertools.product(*[epoch, lr]))
 #train the model
 accuracy_trigram, f1_trigram, conf_trigram, acc_std_trigram, f1_std_trigram = fasttext_ngram(parameters_trigram, 3)
 accuracy_word, f1_word, conf_word, acc_std_word, f1_std_word = fasttext_word(parameters_word)
+for i, acc, f1, conf, accstd, f1std in zip(parameters_trigram,accuracy_trigram, f1_trigram, conf_trigram, acc_std_trigram, f1_std_trigram):
+    e,l=i
+    print('Trigram Test Result--------------------------')
+    print(f'> With Epoch: {e},Learning rate:{l}')
+    print(f'> Accuracy: {acc})')
+    print(f'> Standard deviation of accuracy: {accstd})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Standard deviation of f1: {f1std})')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
+
+for i, acc, f1, conf, accstd, f1std in zip(parameters_word, accuracy_word, f1_word, conf_word, acc_std_word, f1_std_word):
+    e,l=i
+    print('Word Test Result--------------------------')
+    print(f'> With Epoch: {e},Learning rate:{l}')
+    print(f'> Accuracy: {acc})')
+    print(f'> Standard deviation of accuracy: {accstd})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Standard deviation of f1: {f1std})')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')

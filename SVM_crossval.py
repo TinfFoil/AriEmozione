@@ -57,3 +57,70 @@ f1_ldia, acc_ldia, cm_ldia, acc_std_ldia, f1_std_ldia = svc_loop(cv_ldia, dev_ld
 f1_tfidf_trigram, acc_tfidf_trigram, cm_tfidf_trigram, acc_std_tfidf_trigram, f1_std_tfidf_trigram = svc_loop(trigram_tfidf_cv, trigram_tfidf_dev, parameters)
 f1_svd_trigram, acc_svd_trigram, cm_svd_trigram, acc_std_svd_trigram, f1_std_svd_trigram = svc_loop(trigram_svd_cv, trigram_svd_dev, parameters)
 f1_ldia_trigram, acc_ldia_trigram, cm_ldia_trigram, acc_std_ldia_trigram, f1_std_ldia_trigram = svc_loop(trigram_ldia_cv, trigram_ldia_dev, parameters)
+
+
+for i, f1, acc, conf, accstd, f1std in zip(parameters, f1_tfidf, acc_tfidf, cm_tfidf, acc_std_tfidf, f1_std_tfidf):
+    c,g=i
+    print('WORD TFIDF Test Result--------------------------')
+    print(f'> With C: {c}, Gamma:{g}')
+    print(f'> Accuracy: {acc})')
+    print(f'> Standard deviation of accuracy: {accstd})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Standard deviation of f1: {f1std})')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
+    
+for i, f1, acc, conf, accstd, f1std in zip(parameters, f1_svd, acc_svd, cm_svd, acc_std_svd, f1_std_svd):
+    c,g=i
+    print('WORD SVD Test Result--------------------------')
+    print(f'> With C: {c}, Gamma:{g}')
+    print(f'> Accuracy: {acc})')
+    print(f'> Standard deviation of accuracy: {accstd})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Standard deviation of f1: {f1std})')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
+    
+for i, f1, acc, conf, accstd, f1std in zip(parameters, f1_ldia, acc_ldia, cm_ldia, acc_std_ldia, f1_std_ldia):
+    c,g=i
+    print('WORD LDIA Test Result--------------------------')
+    print(f'> With C: {c}, Gamma:{g}')
+    print(f'> Accuracy: {acc})')
+    print(f'> Standard deviation of accuracy: {accstd})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Standard deviation of f1: {f1std})')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
+    
+for i, f1, acc, conf, accstd, f1std in zip(parameters, f1_tfidf_trigram, acc_tfidf_trigram, cm_tfidf_trigram, acc_std_tfidf_trigram, f1_std_tfidf_trigram):
+    c,g=i
+    print('TRIGRAM TFIDF Test Result--------------------------')
+    print(f'> With C: {c}, Gamma:{g}')
+    print(f'> Accuracy: {acc})')
+    print(f'> Standard deviation of accuracy: {accstd})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Standard deviation of f1: {f1std})')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
+    
+for i, f1, acc, conf, accstd, f1std in zip(parameters, f1_svd_trigram, acc_svd_trigram, cm_svd_trigram, acc_std_svd_trigram, f1_std_svd_trigram):
+    c,g=i
+    print('TRIGRAM SVD Test Result--------------------------')
+    print(f'> With C: {c}, Gamma:{g}')
+    print(f'> Accuracy: {acc})')
+    print(f'> Standard deviation of accuracy: {accstd})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Standard deviation of f1: {f1std})')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
+    
+for i, f1, acc, conf, accstd, f1std in zip(parameters, f1_ldia_trigram, acc_ldia_trigram, cm_ldia_trigram, acc_std_ldia_trigram, f1_std_ldia_trigram):
+    c,g=i
+    print('TRIGRAM LDIA Test Result--------------------------')
+    print(f'> With C: {c}, Gamma:{g}')
+    print(f'> Accuracy: {acc})')
+    print(f'> Standard deviation of accuracy: {accstd})')
+    print(f'> F1-Score: {f1}')
+    print(f'> Standard deviation of f1: {f1std})')
+    print(f'> Confusion Matrix:\n{conf}')
+    print('------------------------------------------------------------------------')
