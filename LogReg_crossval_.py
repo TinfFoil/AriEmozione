@@ -18,8 +18,8 @@ def LogReg_crossval(train, tra_y, test, tes_y):
 
     for train, test in kfold.split(inputs, targets):
         LogReg = LogisticRegression(multi_class='multinomial', solver='newton-cg')
-        print('------------------------------------------------------------------------')
-        print(f'Training for fold {fold_no} ...')
+        #print('------------------------------------------------------------------------')
+        #print(f'Training for fold {fold_no} ...')
         LogReg = LogReg.fit(inputs[train], targets[train])
         y_pred = LogReg.predict(inputs[test])
         acc = metrics.accuracy_score(targets[test], y_pred)
