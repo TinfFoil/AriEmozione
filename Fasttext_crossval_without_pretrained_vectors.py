@@ -73,7 +73,7 @@ def fasttext_word(para):
             fn_train = label_data(label[train], dataset[train], "train")
             fn_test = label_data(label[test], dataset[test], "test")
             Y = label_data_return_list(label[test], dataset[test])
-            mode = fasttext.train_supervised(input = fn_train, lr = lr, epoch = epoch)
+            model = fasttext.train_supervised(input = fn_train, lr = lr, epoch = epoch)
             for line in Y:
                 line = line.strip('\n')
                 predictions.append(model.predict(line))
