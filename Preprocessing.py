@@ -103,7 +103,7 @@ def label_data(results, data, filename):
         t = "__label__" + i + " " + j + "\n"
         labelled.append(t)
     fn = filename + ".txt"
-    fi = open(fn, "w")
+    fi = open(fn, "w",encoding="latin-1")
     fi.writelines(labelled)
     return fn
 
