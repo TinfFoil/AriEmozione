@@ -1,5 +1,6 @@
 from Preprocessing import *
 import it_core_news_sm
+import re
 nlp = it_core_news_sm.load()
 def tokenizer_FASTTEXT(doc):
     tokenize = []
