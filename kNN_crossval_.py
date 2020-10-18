@@ -19,8 +19,8 @@ def kNN_crossval(train, tra_y, test, tes_y):
         for k in range(10):
             if k != 0:
                 kNN = KNeighborsClassifier(n_neighbors=k)
-                print('------------------------------------------------------------------------')
-                print(f'Training for fold {fold_no} ...')
+                #print('------------------------------------------------------------------------')
+                #print(f'Training for fold {fold_no} ...')
                 kNN = kNN.fit(inputs[train], targets[train])
                 y_pred = kNN.predict(inputs[test])
                 acc = metrics.accuracy_score(targets[test], y_pred)
