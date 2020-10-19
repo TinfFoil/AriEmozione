@@ -14,8 +14,7 @@ class_weight
 a = [0, 1, 2, 3, 4, 5]
 weight = dict()
 for k, v in zip(a, class_weight):
-    weight[k = v
-weight
+    weight[k] = v
 
 #this module trains the model using train set and development set and then tests the model using the test set
 def svc_loop(train_x, test_x, para):
