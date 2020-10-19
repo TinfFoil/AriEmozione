@@ -32,7 +32,7 @@ def svc_loop(train_x, test_x, para):
         cm = []
         kf = KFold(n_splits = 10)
         c, gamma = i
-        for train, testd in kf.split(X, Y):
+        for train, test in kf.split(X, Y):
             try_svc = SVC(kernel = 'rbf', C = c, class_weight = weight, gamma = gamma)
             y_pred = try_svc.fit(X[train], Y[train]).predict(X[test])
             f1.append(f1_score(Y[test], y_pred, average = 'weighted'))
