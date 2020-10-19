@@ -31,10 +31,10 @@ def svc_loop(train_x, test_x, para):
         c, gamma = i
         try_svc = SVC(kernel = 'rbf', C = c, class_weight = weight, gamma = gamma)
         y_pred = try_svc.fit(train_x, train_y_list).predict(test_x)
-        f1.append(f1_score(encoded_test, y_pred, averag = 'weighted'))
+        f1.append(f1_score(encoded_test, y_pred, average = 'weighted'))
         acc.append(try_svc.score(test_x, test_y_list))
         i = confusion_matrix(test_y_list, y_pred)
-        cm.append(a/a.astype(np.float).sum(axi = 1))
+        cm.append(a/a.astype(np.float).sum(axis = 1))
     return f1, acc, cm
 
 c = [1000, 100, 10, 1]
