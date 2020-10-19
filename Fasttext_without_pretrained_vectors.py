@@ -26,7 +26,7 @@ f1_word = list()
 for i in parameters_trigram:
     prediction = []
     epoch, lr = i    
-    model = fasttext.train_supervised(input = "train_dev.txt", lr = lr, epoch = epoch, minn = 3, maxn= 3)    
+    model = fasttext.train_supervised(input = "train.txt", lr = lr, epoch = epoch, minn = 3, maxn= 3)    
     accuracy_trigram.append((model.test("test.txt")[1], "parameters:", i))
     for line in test_text_fa:
         line = line.strip('\n')
@@ -40,7 +40,7 @@ for i in parameters_trigram:
 for i in parameters_word:
     prediction = []
     epoch, lr = i    
-    model = fasttext.train_supervised(input = "train_dev.txt", lr = lr, epoch = epoch)    
+    model = fasttext.train_supervised(input = "train.txt", lr = lr, epoch = epoch)    
     accuracy_word.append((model.test("test.txt")[1], "parameters:", i))
     for line in test_text_fa:
         line = line.strip('\n')
