@@ -16,7 +16,6 @@ weight = dict()
 for k, v in zip(a, class_weight):
     weight[k] = v
 
-y_lis = np.concatenate([encoded_cv, encoded_dev])
 
 #the following module is used to cross validate the train dataset and the development dataset. It returns the f1 score, the accuracy and the confusion matrix
 def svc_loop(train_x, test_x, para):
@@ -25,8 +24,8 @@ def svc_loop(train_x, test_x, para):
     re_acc = []
     re_f1 = []
     re_cm = []
-    X = np.concatenate((train_x, test_x), axi = 0)
-    Y = np.concatenate((encoded_cv, encoded_dev), axi = 0)
+    X = np.concatenate((train_x, test_x), axis = 0)
+    Y = np.concatenate((encoded_cv, encoded_dev), axis = 0)
     for i in para:
         acc = []
         f1 = []
@@ -34,15 +33,15 @@ def svc_loop(train_x, test_x, para):
         kf = KFold(n_split = 10)
         c, gamma = i
         for train, testd in kf.split(X, Y):
-            try_svc = SVC(kerne = 'rbf', C = c, class_weight = weight, gamma = gamma)
+            try_svc = SVC(kernel = 'rbf', C = c, class_weight = weight, gamma = gamma)
             y_pred = try_svc.fit(X[train], Y[train]).predict(X[test])
-            f1.append(f1_score(Y[test], y_pred, averag = 'weighted'))
+            f1.append(f1_score(Y[test], y_pred, average = 'weighted'))
             acc.append(try_svc.score(X[test], Y[test]))
-            i = confusion_matrix(Y[test], y_pred)
-            cm.append(i/i.astype(np.float).sum(axi = 1))
+            zz = confusion_matrix(Y[test], y_pred)
+            cm.append(zz/zz.astype(np.float).sum(axis = 1))
         re_f1.append(np.mean(f1))
         re_acc.append(np.mean(acc))
-        re_cm.append(np.nanmean(cm, axi = 0))
+        re_cm.append(np.nanmean(cm, axis = 0))
         acc_std.append(np.std(acc))
         f1_std.append(np.std(f1))
     return re_f1, re_acc, re_cm, acc_std, f1_std
