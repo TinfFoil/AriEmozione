@@ -30,7 +30,7 @@ def svc_loop(train_x, test_x, para):
         acc = []
         f1 = []
         cm = []
-        kf = KFold(n_split = 10)
+        kf = KFold(n_splits = 10)
         c, gamma = i
         for train, testd in kf.split(X, Y):
             try_svc = SVC(kernel = 'rbf', C = c, class_weight = weight, gamma = gamma)
