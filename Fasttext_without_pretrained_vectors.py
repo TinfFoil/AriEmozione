@@ -4,6 +4,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
 from Tokenize_Vectorize import *
 from Fasttext_preprocessing import *
+import itertools
 
 #parameters for training the model
 epoch = [70, 80, 90, 100]
