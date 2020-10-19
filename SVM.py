@@ -29,7 +29,7 @@ def svc_loop(train_x, test_x, para):
     for i in para:
         print("Test combination", i)
         c, gamma = i
-        try_svc = SVC(kerne = 'rbf', C = c, class_weight = weight, gamma = gamma)
+        try_svc = SVC(kernel = 'rbf', C = c, class_weight = weight, gamma = gamma)
         y_pred = try_svc.fit(train_x, train_y_list).predict(test_x)
         f1.append(f1_score(test_y_list, y_pred, averag = 'weighted'))
         acc.append(try_svc.score(test_x, test_y_list))
