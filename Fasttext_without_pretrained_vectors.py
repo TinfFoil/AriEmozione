@@ -34,7 +34,7 @@ for i in parameters_trigram:
     prediction = convert_pre(prediction)
     f1_trigram.append(f1_score(encoded_test, prediction, average = 'weighted'))
     c = confusion_matrix(encoded_test, prediction)
-    conf_trigram.append((c/c.astype(np.float).sum(axi = 1)))
+    conf_trigram.append((c/c.astype(np.float).sum(axis = 1)))
 
 #Training the model for word
 for i in parameters_word:
@@ -48,7 +48,7 @@ for i in parameters_word:
     prediction = convert_pre(prediction)
     f1_word.append(f1_score(encoded_test, prediction, average = 'weighted'))
     c = confusion_matrix(encoded_test, prediction)
-    conf_word.append((c/c.astype(np.float).sum(axi = 1)))
+    conf_word.append((c/c.astype(np.float).sum(axis = 1)))
     
 for i, acc, f1, conf in zip(parameters_trigram, accuracy_trigram, f1_trigram, conf_trigram):
     e,l=i
