@@ -21,7 +21,7 @@ for i in parameters_trigram:
     prediction = []
     epoch, lr = i    
     model = fasttext.train_supervised(input = "cv.txt", lr = lr, epoch = epoch, minn = 3, maxn = 3, dim = 300, pretrainedVectors = "D:/vec/cc.it.300.vec/cc.it.300.vec")
-    accuracy_trigram.append((model.test("dev.txt")[1], "parameters:", i))
+    accuracy_trigram.append((model.test("dev.txt")[1]))
     for line in dev_text_fa:
         line = line.strip('\n')
         prediction.append(model.predict(line))
@@ -49,7 +49,7 @@ for i in parameters_word:
     prediction = []
     epoch, lr = i    
     model = fasttext.train_supervised(input = "cv.txt", lr = lr, epoch = epoch, dim = 300, pretrainedVectors = "D:/vec/cc.it.300.vec/cc.it.300.vec") 
-    accuracy_word.append((model.test("dev.txt")[1], "parameters:", i))
+    accuracy_word.append((model.test("dev.txt")[1]))
     for line in dev_text_fa:
         line = line.strip('\n')
         prediction.append(model.predict(line))
