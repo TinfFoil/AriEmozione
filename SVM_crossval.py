@@ -14,7 +14,7 @@ class_weight
 a = [0, 1, 2, 3, 4, 5]
 weight = dict()
 for k, v in zip(a, class_weight):
-    weight[k = v
+    weight[k] = v
 
 y_lis = np.concatenate([encoded_cv, encoded_dev])
 
