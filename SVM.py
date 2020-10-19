@@ -33,8 +33,8 @@ def svc_loop(train_x, test_x, para):
         y_pred = try_svc.fit(train_x, train_y_list).predict(test_x)
         f1.append(f1_score(encoded_test, y_pred, average = 'weighted'))
         acc.append(try_svc.score(test_x, encoded_test))
-        i = confusion_matrix(encoded_test, y_pred)
-        cm.append(a/a.astype(np.float).sum(axis = 1))
+        zzz = confusion_matrix(encoded_test, y_pred)
+        cm.append(zzz/zzz.astype(np.float).sum(axis = 1))
     return f1, acc, cm
 
 c = [1000, 100, 10, 1]
