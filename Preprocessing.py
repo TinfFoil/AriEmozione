@@ -3,6 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from functools import reduce
 from keras.utils import np_utils
+from data import *
 
 columns = ["Names", "Text", "Emotion", "Fiducia", "?"]
 
