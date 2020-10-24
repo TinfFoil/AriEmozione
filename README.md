@@ -10,12 +10,14 @@ and
 Alberto Barron-Cedeno
 
 This paper has been submitted for publication at the Seventh Italian Conference on Computational Linguistics (CLiC-it 2020).
+
 Our main task was to identify  the  emotion  expressed  in  a  verse,  in the context of an aria.
 
 
 ## Abstract
 
-We present a new task:  the identification  of  emotions  transmitted in Italian opera arias at the verse level. This is a relevant problem for the organization  of  the  vast repertoire of  Italian Opera arias and to enable further analyses by both musicologists and the lay  public.  We  shape  the  task  as  a multi-class supervised problem considering  six  emotions. In  order  to  address it, we manually-annotated a corpus with 2.5k verses — which we release to  the  research  community—  and  experimented with different classification models and representations.  We reach macro-averaged  F1 measures  of∼0.45. Such performance reflects the difficulty of the task at hand, partially caused by the size and nature of the data — shortverses written in 18th-century Italian.
+We present a new task:  the identification  of  emotions  transmitted in Italian opera arias at the verse level. This is a relevant problem for the organization  of  the  vast repertoire of  Italian Opera arias and to enable further analyses by both musicologists and the lay  public. 
+We  shape  the  task  as  a multi-class supervised problem considering  six  emotions. In  order  to  address it, we manually-annotated a corpus with 2.5k verses — which we release to  the  research  community—  and  experimented with different classification models and representations.  We reach macro-averaged  F1 measures  of∼0.45. Such performance reflects the difficulty of the task at hand, partially caused by the size and nature of the data — shortverses written in 18th-century Italian.
 
 
 ## Data and Experiments
