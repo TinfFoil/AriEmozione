@@ -26,4 +26,9 @@ You can download a copy of all the files in this repository by cloning the
 [git](https://git-scm.com/) repository:
 
     git clone https://github.com/Zhangshibf/Aria-emotions.git
+    
+    
+## How to Cite
+
+Citation in bib format:
 
