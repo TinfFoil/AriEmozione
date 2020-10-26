@@ -28,7 +28,11 @@ You can download a copy of all the files in this repository by cloning the
     git clone https://github.com/Zhangshibf/Aria-emotions.git
     
     
-## How to Cite
+## If you wish to cite our paper:
 
 Citation in bib format:
+
+~~~
+ababababa
+~~~
 
