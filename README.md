@@ -41,3 +41,9 @@ We don't have one yet.
 Citation in bib format is still to be added.
 ~~~
 
+Full citation:
+
+~~~
+We don't have this one either.
+Still to be added
+~~~
