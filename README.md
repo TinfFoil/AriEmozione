@@ -32,6 +32,13 @@ You can download a copy of all the files in this repository by cloning the
 1. aa
 2. aa
 3. aaa
+Keras
+Numpy
+Pandas
+Sklearn
+it_core_news_sm
+fasttext
+D:/vec/cc.it.300.vec/cc.it.300.vec
 
 
 ## If you wish to cite our paper:
