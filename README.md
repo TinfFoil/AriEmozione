@@ -39,6 +39,7 @@ Sklearn
 it_core_news_sm
 fasttext
 D:/vec/cc.it.300.vec/cc.it.300.vec
+will add more information tomorrow
 
 
 ## If you wish to cite our paper:
