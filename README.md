@@ -29,17 +29,13 @@ You can download a copy of all the files in this repository by cloning the
     
 
 ## Set-up and installation
-1. aa
-2. aa
-3. aaa
-Keras
-Numpy
-Pandas
-Sklearn
-it_core_news_sm
-fasttext
-D:/vec/cc.it.300.vec/cc.it.300.vec
-will add more information tomorrow
+1. Install Pandas
+2. Install Numpy
+3. Install Keras
+4. Install sklearn
+5. Download it_core_news_sm so that the tokenizer can function
+6. Install fasttext
+7. Install fasttext's pre-trained vectors and save it at the right directory path
 
 
 ## If you wish to cite our paper:
