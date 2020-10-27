@@ -30,13 +30,20 @@ You can download a copy of all the files in this repository by cloning the
 
 ## Set-up and installation
 1. Install Pandas
->aaaaa
+> pip install pandas
 2. Install Numpy
+> pip install numpy
 3. Install Keras
+> pip install Keras
 4. Install sklearn
+> pip install Keras
 5. Download it_core_news_sm so that the tokenizer can function
+> python -m spacy download it_core_news_sm
 6. Install fasttext
-7. Install fasttext's pre-trained vectors and save it at the right directory path
+> pip install fasttext
+7. Download fasttext's pre-trained vectors and save it at the right directory path
+> Download the pre-trained Italian vectors from https://fasttext.cc/docs/en/crawl-vectors.html
+> unzip the file and save it in AAAAAAAAAa
 
 
 ## If you wish to cite our paper:
