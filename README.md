@@ -43,7 +43,7 @@ You can download a copy of all the files in this repository by cloning the
 > pip install fasttext
 7. Download fasttext's pre-trained vectors and save it at the right directory path
 > Download the pre-trained Italian vectors from https://fasttext.cc/docs/en/crawl-vectors.html
-> unzip the file and save it in AAAAAAAAAa
+> unzip the file and save it in "D:/vec/cc.it.300.vec/cc.it.300.vec"
 
 
 ## If you wish to cite our paper:
