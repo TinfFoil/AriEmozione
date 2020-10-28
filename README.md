@@ -20,10 +20,12 @@ https://docs.google.com/spreadsheets/d/1Ztjry2mJs6ufCZM1O5CQRyZ8pA5YDnToN0h0NGX1
 
 
 ## Information on Subfolders
-###Subfolder crossvalidation
-###aaa
-###bbb
-###ccc
+
+
+1. Subfolder crossvalidation
+2. Subfolder
+3. Subfolder
+4. Subfolder
 
 ## Getting the code
 
