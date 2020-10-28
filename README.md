@@ -29,20 +29,20 @@ You can download a copy of all the files in this repository by cloning the
     
 
 ## Set-up and installation
-1. Install Pandas
+1. Install Pandas <br />
 `pip install pandas` <br />
-2. Install Numpy
-> pip install numpy
-3. Install Keras
-> pip install Keras
-4. Install sklearn
-> pip install sklearn
-5. Download it_core_news_sm so that the tokenizer can function
-> python -m spacy download it_core_news_sm
-6. If you want to run fasttext models: Install fasttext
-> pip install fasttext
-7. If you want to run fasttext models using pre-trained vectors: Download fasttext's pre-trained vectors and save it at the right directory path
-> Download the pre-trained Italian vectors from https://fasttext.cc/docs/en/crawl-vectors.html, unzip the file and save it in "D:/vec/cc.it.300.vec/cc.it.300.vec"
+2. Install Numpy <br />
+`pip install numpy` <br />
+3. Install Keras <br />
+`pip install Keras` <br />
+4. Install sklearn <br />
+`pip install sklearn` <br />
+5. Download it_core_news_sm so that the tokenizer can function <br />
+`python -m spacy download it_core_news_sm` <br />
+6. If you want to run fasttext models: Install fasttext <br />
+`pip install fasttext` <br />
+7. If you want to run fasttext models using pre-trained vectors: Download fasttext's pre-trained vectors and save it at the right directory path <br />
+`Download the pre-trained Italian vectors from https://fasttext.cc/docs/en/crawl-vectors.html, unzip the file and save it in "D:/vec/cc.it.300.vec/cc.it.300.vec"` <br />
 
 
 ## If you wish to cite our paper:
