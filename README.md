@@ -22,12 +22,14 @@ https://docs.google.com/spreadsheets/d/1Ztjry2mJs6ufCZM1O5CQRyZ8pA5YDnToN0h0NGX1
 ## Information on Subfolders
 
 
-1. Subfolder crossvalidation
-This folder contains all the models that performs 10-fold cross validation on the merged train set and development set
-2. Subfolder Datasets
-This folder contains all datasets that are used in this project. We have a train set (ariaset_train.tsv), a development set (ariaset_dev.tsv), and a test set (ariaset_test.tsv)
-3. Subfolder
-4. Subfolder
+1. Subfolder crossvalidation <br />
+`This folder contains all the models that performs 10-fold cross validation on the merged train set and development set (which is also called cv set)` <br />
+2. Subfolder datasets <br />
+`This folder contains all datasets that are used in this project. We have a train set (ariaset_train.tsv), a development set (ariaset_dev.tsv), and a test set (ariaset_test.tsv)` <br />
+3. Subfolder test<br />
+`This folder contains all the models that are trained using cv set and tested on test set`
+4. Subfolder .idea
+`I don't know what does this do. @Francesco, what does this folder do?`
 
 ## Getting the code
 
