@@ -5,8 +5,8 @@ import fasttext.util
 import fasttext
 import itertools
 import statistics
-from Tokenize_Vectorize import *
-from Fasttext_preprocessing import *
+from Preprocessing_Pipeline.Tokenize_Vectorize import *
+from Preprocessing_Pipeline.Fasttext_preprocessing import *
 
 cv_tokenized = tokenizer_FASTTEXT(cv_text)
 dev_tokenized = tokenizer_FASTTEXT(dev_text)

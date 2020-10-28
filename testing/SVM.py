@@ -4,8 +4,7 @@ import itertools
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
 from sklearn.utils import class_weight
-from Preprocessing import *
-from Tokenize_Vectorize import *
+from Preprocessing_Pipeline.Tokenize_Vectorize import *
 
 
 #generate class weight

@@ -1,4 +1,4 @@
-from Preprocessing import *
+from Preprocessing_Pipeline.Preprocessing import *
 import it_core_news_sm
 import re
 nlp = it_core_news_sm.load()

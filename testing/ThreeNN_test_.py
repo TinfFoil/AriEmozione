@@ -1,4 +1,4 @@
-from Tokenize_Vectorize import *
+from Preprocessing_Pipeline.Tokenize_Vectorize import *
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Dropout
