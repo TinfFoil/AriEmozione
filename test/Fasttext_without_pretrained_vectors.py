@@ -3,7 +3,7 @@ import fasttext
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
 from Tokenize_Vectorize import *
-from Preprocessing_Pipeline.Fasttext_preprocessing import *
+from Fasttext_preprocessing import *
 import itertools
 
 #parameters for training the model

@@ -1,4 +1,4 @@
-from Preprocessing_Pipeline.Tokenize_Vectorize import *
+from Tokenize_Vectorize import *
 #If one wants to rerun the whole pipeline to find other Neurons*Epochs this should be changed to:
 #from Finding_the_best_NeuronCombos import *
 

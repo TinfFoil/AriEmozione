@@ -5,7 +5,7 @@ from sklearn.utils import class_weight
 import itertools
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
-from Preprocessing_Pipeline.Tokenize_Vectorize import *
+from Tokenize_Vectorize import *
 
 #generate class weight
 class_weight = class_weight.compute_class_weight("balanced", np.unique(encoded_cv), encoded_cv)
