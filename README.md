@@ -31,7 +31,7 @@ You can download a copy of all the files in this repository by cloning the
     
 
 ## Set-up and installation
-1. Install Pandas <br />
+1. Install [Pandas](https://pandas.pydata.org/) <br />
 `pip install pandas` <br />
 2. Install Numpy <br />
 `pip install numpy` <br />
