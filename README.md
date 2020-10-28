@@ -42,8 +42,7 @@ You can download a copy of all the files in this repository by cloning the
 6. If you want to run fasttext models: Install fasttext
 > pip install fasttext
 7. If you want to run fasttext models using pre-trained vectors: Download fasttext's pre-trained vectors and save it at the right directory path
-> Download the pre-trained Italian vectors from https://fasttext.cc/docs/en/crawl-vectors.html
-> unzip the file and save it in "D:/vec/cc.it.300.vec/cc.it.300.vec"
+> Download the pre-trained Italian vectors from https://fasttext.cc/docs/en/crawl-vectors.html, unzip the file and save it in "D:/vec/cc.it.300.vec/cc.it.300.vec"
 
 
 ## If you wish to cite our paper:
