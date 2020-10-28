@@ -39,7 +39,7 @@ You can download a copy of all the files in this repository by cloning the
 `pip install Keras` <br />
 4. Install [sklearn](https://scikit-learn.org/stable/) <br />
 `pip install sklearn` <br />
-5. Download it_core_news_sm from [spaCy](https://spacy.io/models/it)so that the tokenizer can function <br />
+5. Download it_core_news_sm from [spaCy](https://spacy.io/models/it) so that the tokenizer can function <br />
 `python -m spacy download it_core_news_sm` <br />
 6. If you want to run fasttext models: Install [fasttext](https://fasttext.cc/) <br />
 `pip install fasttext` <br />
