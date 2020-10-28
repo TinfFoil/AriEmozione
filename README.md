@@ -30,13 +30,13 @@ You can download a copy of all the files in this repository by cloning the
 
 ## Set-up and installation
 1. Install Pandas
-> pip install pandas
+`pip install pandas` <br />
 2. Install Numpy
 > pip install numpy
 3. Install Keras
 > pip install Keras
 4. Install sklearn
-> pip install Keras
+> pip install sklearn
 5. Download it_core_news_sm so that the tokenizer can function
 > python -m spacy download it_core_news_sm
 6. If you want to run fasttext models: Install fasttext
