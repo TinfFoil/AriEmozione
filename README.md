@@ -39,11 +39,9 @@ You can download a copy of all the files in this repository by cloning the
 > pip install Keras
 5. Download it_core_news_sm so that the tokenizer can function
 > python -m spacy download it_core_news_sm
-If you want to run fasttext models:
-6. Install fasttext
+6. If you want to run fasttext models: Install fasttext
 > pip install fasttext
-If you want to run fasttext models using pre-trained vectors:
-7. Download fasttext's pre-trained vectors and save it at the right directory path
+7. If you want to run fasttext models using pre-trained vectors: Download fasttext's pre-trained vectors and save it at the right directory path
 > Download the pre-trained Italian vectors from https://fasttext.cc/docs/en/crawl-vectors.html
 > unzip the file and save it in "D:/vec/cc.it.300.vec/cc.it.300.vec"
 
