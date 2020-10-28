@@ -23,7 +23,9 @@ https://docs.google.com/spreadsheets/d/1Ztjry2mJs6ufCZM1O5CQRyZ8pA5YDnToN0h0NGX1
 
 
 1. Subfolder crossvalidation
-2. Subfolder
+This folder contains all the models that performs 10-fold cross validation on the merged train set and development set
+2. Subfolder Datasets
+This folder contains all datasets that are used in this project. We have a train set (ariaset_train.tsv), a development set (ariaset_dev.tsv), and a test set (ariaset_test.tsv)
 3. Subfolder
 4. Subfolder
 
