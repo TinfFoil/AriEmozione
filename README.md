@@ -23,7 +23,7 @@ https://docs.google.com/spreadsheets/d/1Ztjry2mJs6ufCZM1O5CQRyZ8pA5YDnToN0h0NGX1
 
 
 1. Subfolder crossvalidation <br />
-`This folder contains all the models that perform 10-fold cross validation using the cv dataset and tested on the dev dataset' <br />
+`This folder contains all the models that perform 10-fold cross validation using the cv dataset and tested on the dev dataset` <br />
 2. Subfolder datasets <br />
 `This folder contains all datasets that are used in this project. We have a train dataset (ariaset_train.tsv), called "cv" in the code, a development dataset (ariaset_dev.tsv), and a test dataset (ariaset_test.tsv)` <br />
 3. Subfolder test<br />
