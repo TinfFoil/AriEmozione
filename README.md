@@ -23,13 +23,12 @@ https://docs.google.com/spreadsheets/d/1Ztjry2mJs6ufCZM1O5CQRyZ8pA5YDnToN0h0NGX1
 
 
 1. Subfolder crossvalidation <br />
-`This folder contains all the models that performs 10-fold cross validation on the merged train set and development set (which is also called cv set)` <br />
+`This folder contains all the models that perform 10-fold cross validation using the cv dataset and tested on the dev dataset' <br />
 2. Subfolder datasets <br />
-`This folder contains all datasets that are used in this project. We have a train set (ariaset_train.tsv), a development set (ariaset_dev.tsv), and a test set (ariaset_test.tsv)` <br />
+`This folder contains all datasets that are used in this project. We have a train dataset (ariaset_train.tsv), called "cv" in the code, a development dataset (ariaset_dev.tsv), and a test dataset (ariaset_test.tsv)` <br />
 3. Subfolder test<br />
-`This folder contains all the models that are trained using cv set and tested on test set`
-4. Subfolder .idea
-`I don't know what does this do. @Francesco, what does this folder do?`
+`This folder contains all the models that are trained on the merged cv and dev dataset (ariaset_train.tsv + ariaset_dev.tsv) and tested on the test set`
+
 
 ## Getting the code
 
@@ -48,11 +47,11 @@ You can download a copy of all the files in this repository by cloning the
 `pip install Keras` <br />
 4. Install [sklearn](https://scikit-learn.org/stable/) <br />
 `pip install sklearn` <br />
-5. Download it_core_news_sm from [spaCy](https://spacy.io/models/it) so that the tokenizer can function <br />
+5. Download it_core_news_sm from [spaCy](https://spacy.io/models/it) (necessary for the Italian tokenizer) <br />
 `python -m spacy download it_core_news_sm` <br />
 6. If you want to run fasttext models: Install [fasttext](https://fasttext.cc/) <br />
 `pip install fasttext` <br />
-7. If you want to run fasttext models using pre-trained vectors: Download fasttext's [pre-trained vectors](https://fasttext.cc/docs/en/crawl-vectors.html) of Italian and save it at the right directory path <br />
+7. If you want to run fasttext models using pre-trained vectors: Download fasttext's Italian [pre-trained vectors](https://fasttext.cc/docs/en/crawl-vectors.html) and save them at the right directory path <br />
 `Download the pre-trained Italian vectors from https://fasttext.cc/docs/en/crawl-vectors.html` <br />
 `Unzip the file and save it in "D:/vec/cc.it.300.vec/cc.it.300.vec"` <br />
 
