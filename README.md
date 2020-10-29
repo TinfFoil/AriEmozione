@@ -5,7 +5,7 @@ by
 Francesco Fernicola,
 Shibingfeng Zhang
 
-This paper has been submitted for publication at the Seventh Italian Conference on Computational Linguistics (CLiC-it 2020).
+This paper has been accepted for publication at the Seventh Italian Conference on Computational Linguistics (CLiC-it 2020).
 
 Our main task was to identify  the  emotion  expressed  in  a  verse,  in the context of an aria.
 
