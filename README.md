@@ -55,8 +55,7 @@ The link to our paper: (we don't have it yet)
 Citation in bib format:
 
 ~~~
-We don't have one yet.
-Citation in bib format is still to be added.
+@UNPUBLISHED{AriEmozione,title = "AriEmozione:  Identifying Emotions in Opera Verses"}, author="Fernicola, Francesco and Zhang, Shibingfeng and Garcea, Federico and Bonora, Paolo and Barrón-Cedeño, Alberto", year = "2021", publisher = "Italian Conference on Computational Linguistics", url = "http://clic2020.ilc.cnr.it/it/home/")
 ~~~
 
 Full citation:
