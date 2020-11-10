@@ -9,10 +9,11 @@ The main task of our project was to identify  the  emotion  expressed  in  a  ve
 
 1. Subfolder crossvalidation <br />
 `This folder contains all the models that perform 10-fold cross validation using the cv dataset and tested on the dev dataset` <br />
-2. Subfolder datasets <br />
-`This folder contains all datasets that are used in this project. We have a train dataset (ariaset_train.tsv), called "cv" in the code, a development dataset (ariaset_dev.tsv), and a test dataset (ariaset_test.tsv)` <br />
-3. Subfolder test<br />
+
+2. Subfolder test<br />
 `This folder contains all the models that are trained on the merged cv and dev dataset (ariaset_train.tsv + ariaset_dev.tsv) and tested on the test set`
+
+Further indications about how to download the corpus and run the tests can be found in each subfolder
 
 
 ## Data and Experiments
