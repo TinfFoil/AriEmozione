@@ -13,7 +13,7 @@ The main task of our project was to identify  the  emotion  expressed  in  a  ve
 2. Subfolder test<br />
 `This folder contains all the models that are trained on the merged cv and dev dataset (ariaset_train.tsv + ariaset_dev.tsv) and tested on the test set`
 
-Further indications about how to download the corpus and run the tests can be found in each subfolder
+Further indications about how to download the corpus and run the tests can be found in each subfolder.
 
 
 ## Data and Experiments
