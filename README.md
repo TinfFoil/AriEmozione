@@ -1,7 +1,7 @@
 
 # AriEmozione:  Identifying Emotions in Opera Verses
 
-Our main task was to identify  the  emotion  expressed  in  a  verse,  in the context of an aria.
+The main task of our project was to identify  the  emotion  expressed  in  a  verse,  in the context of an aria.
 
 
 ## Information on Subfolders
@@ -48,7 +48,9 @@ You can download a copy of all the files in this repository by cloning the
 `Unzip the file and save it in "D:/vec/cc.it.300.vec/cc.it.300.vec"` <br />
 
 
-## If you wish to cite our paper:
+## If you wish to know more about our project:
+
+We have a paper based on the AriEmozione project and it was accepted at the Seventh Italian Conference on Computational Linguistics, which will be held in March 2021.
 
 The link to our paper: (we don't have it yet)
 
@@ -61,6 +63,5 @@ Citation in bib format:
 Full citation:
 
 ~~~
-We don't have this one either.
-Still to be added
+Fernicola, Zhang, et al. “AriEmozione:  Identifying Emotions in Opera Verses.” CLiC-It 2020, 2021, clic2020.ilc.cnr.it/it/home/. 
 ~~~
