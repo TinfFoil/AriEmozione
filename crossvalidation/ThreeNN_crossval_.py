@@ -1,6 +1,6 @@
 from Tokenize_Vectorize import *
 #If one wants to rerun the whole pipeline to find other Neurons*Epochs this should be changed to:
-#from Finding_the_best_NeuronCombos import *
+#from Best_Neuron_Epochs3 import *
 
 from keras.models import Sequential
 from keras.layers import Dense
