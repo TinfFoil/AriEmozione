@@ -1,4 +1,3 @@
-#import preprocessing file and vectorize_tokenize here
 from sklearn.svm import SVC
 import itertools
 from sklearn.metrics import confusion_matrix
