@@ -4,8 +4,8 @@ This folder contains the models trained on the merged train+dev dataset and test
 
 
 ## How to run the code
-1. Load the desired model and ALL the contents of ```preprocessing_pipeline``` into a directory of your choice
-2. Load the AriEmozione corpus into the same directory
+1. Add the desired model and ALL the contents of ```preprocessing_pipeline``` into a directory of your choice.
+2. Add the AriEmozione corpus into the same directory.
 3. Run the code either directly from your preferred IDE or via the command line using:
 ```
 $ python foo.py
