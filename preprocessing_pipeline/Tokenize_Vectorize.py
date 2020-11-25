@@ -1,4 +1,4 @@
-from Preprocessing_Pipeline.Preprocessing import *
+from Preprocessing import *
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.decomposition import TruncatedSVD, LatentDirichletAllocation as LDiA
 from sklearn.preprocessing import StandardScaler
