@@ -11,7 +11,7 @@ nlp = it_core_news_sm.load()  # the SpaCy Italian Tokenizer
 
 def italian_tokenizer(verse):
     tokenized = []
-    doc = nlp(verse)  # we could add here .casefold() to make it case insensitive
+    doc = nlp(verse) 
     for w in doc:
         regex = re.compile(r'( +|\'|\-|\,|\!|\:|\;|\?|\.|\(|\)|\«|\»|\")')
         if not regex.match(w.text):
