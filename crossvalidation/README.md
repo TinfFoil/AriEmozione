@@ -3,9 +3,9 @@
 This folder contains the models for the 10-fold cross validation using the cv dataset and testing on the dev dataset.
 
 ## Description of the files
-- ```Neuron_Epochs_Exploration``` Directory containing the neural network pipelines to find the best neuron and epoch combinations.
+- ```Neuron_Epochs_Exploration``` Directory containing the neural network pipelines to find the best neuron and epoch combinations
 
-- ```Fasttext_no_pretrained_vec_crossval_.py``` Fasttext model without any preloaded word vectors.
+- ```Fasttext_no_pretrained_vec_crossval_.py``` Fasttext model without any preloaded word vectors
 
 - ```LogReg_crossval_.py``` Logistic Regression
 
