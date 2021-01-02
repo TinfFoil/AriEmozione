@@ -52,8 +52,7 @@ You can download a copy of all the files in this repository by cloning the
 ## If you wish to know more about our project:
 
 We have a paper based on the AriEmozione project and it was accepted at the Seventh Italian Conference on Computational Linguistics, which will be held in March 2021.
-
-The link to our paper: (we don't have it yet)
+You can read it [here](http://ceur-ws.org/Vol-2769/paper_58.pdf).
 
 Citation in bib format:
 
