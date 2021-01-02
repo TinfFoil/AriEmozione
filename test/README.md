@@ -4,9 +4,9 @@ This folder contains the models trained on the merged train+dev dataset and test
 
 
 ## Description of the files
-- ```Fasttext_no_pretrained_vec_test_.py``` Fasttext model without any preloaded word vectors.
+- ```Fasttext_no_pretrained_vec_test_.py``` Fasttext model without any preloaded word vectors
 
-- ```Fasttext_pretrained_vec_test_.py``` Fasttext model with the Fasttext word vectors.
+- ```Fasttext_pretrained_vec_test_.py``` Fasttext model with the Fasttext word vectors
 
 - ```LogReg_test_.py``` Logistic Regression
 
