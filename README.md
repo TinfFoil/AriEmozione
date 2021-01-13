@@ -57,7 +57,24 @@ You can read it [here](http://ceur-ws.org/Vol-2769/paper_58.pdf).
 Citation in bib format:
 
 ~~~
-@UNPUBLISHED{AriEmozione,title = "AriEmozione:  Identifying Emotions in Opera Verses"}, author="Fernicola, Francesco and Zhang, Shibingfeng and Garcea, Federico and Bonora, Paolo and Barrón-Cedeño, Alberto", year = "2021", publisher = "Italian Conference on Computational Linguistics", url = "http://clic2020.ilc.cnr.it/it/home/")
+@inproceedings{DBLP:conf/clic-it/FernicolaZGBB20,
+  author    = {Francesco Fernicola and
+               Shibingfeng Zhang and
+               Federico Garcea and
+               Paolo Bonora and
+               Alberto Barr{\'{o}}n{-}Cede{\~{n}}o},
+  editor    = {Johanna Monti and
+               Felice Dell'Orletta and
+               Fabio Tamburini},
+  title     = {AriEmozione: Identifying Emotions in Opera Verses},
+  booktitle = {Proceedings of the Seventh Italian Conference on Computational Linguistics,
+               CLiC-it 2020, Bologna, Italy, March 1-3, 2021},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {2769},
+  publisher = {CEUR-WS.org},
+  year      = {2020},
+  url       = {http://ceur-ws.org/Vol-2769/paper\_58.pdf},
+}
 ~~~
 
 Full citation:
