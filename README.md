@@ -80,5 +80,5 @@ Citation in bib format:
 Full citation:
 
 ~~~
-Fernicola, Zhang, et al. “AriEmozione:  Identifying Emotions in Opera Verses.” CLiC-It 2020, 2021, clic2020.ilc.cnr.it/it/home/. 
+Fernicola, F., Zhang, S., et al. “AriEmozione: Identifying Emotions in Opera Verses”. In: Proceedings of the Seventh Italian Conference on Computational Linguistics, CLiC-it 2020, Bologna, Italy, March 1-3, 2021. Ed. by Johanna Monti, Felice Dell’Orletta, and Fabio Tamburini. Vol. 2769. CEUR Workshop Proceedings. CEUR-WS.org,2020. url:http://ceur-ws.org/Vol-2769/paper%5C_58.pdf.
 ~~~
